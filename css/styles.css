@@ -1,0 +1,381 @@
+.border-circle, .card-circle-header {
+  border-radius: 50%;
+}
+
+.container-no-full {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.font-bold, .header .box-header .container-figure .card-circle-header .card-header .pop-up h3, .header .box-header .container-figure .card-circle-header .card-header .dolar-figure, .header .box-header .container-figure .card-circle-header .card-header .number-figure {
+  font-weight: bold;
+}
+
+.font-bolder, .header .box-header .header-title {
+  font-weight: 700;
+}
+
+.font-medium, .header .box-header .container-figure .card-circle-header .card-header .description-figure {
+  font-size: 36px;
+}
+
+.font-title-lg, .header .box-header .header-title {
+  font-size: 60px;
+}
+
+.font-small, .header .box-header .container-figure .card-circle-header .card-header .btn-figure, .header .box-header .container-figure .card-circle-header .card-header .title-figure, .header .box-header .header-title span {
+  font-size: 24px;
+}
+
+.font-smaller {
+  font-size: 14px;
+}
+
+.font-weight-slim, .header .box-header .container-figure .card-circle-header .card-header .pop-up h3:last-child, .header .box-header .header-title span {
+  font-weight: 200;
+}
+
+.font-weight-medium, .header .box-header .container-figure .card-circle-header .card-header .description-figure, .header .box-header .container-figure .card-circle-header .card-header .title-figure {
+  font-weight: 400;
+}
+
+.inline-block, .header .box-header .container-figure .card-circle-header .card-header .pop-up .love-img, .header .box-header .container-figure .card-circle-header .card-header .number-figure, .card-message {
+  display: inline-block;
+}
+
+.margin-auto, .card-circle-header {
+  margin: 0 auto;
+}
+
+.margin-none, .header .box-header .container-figure .card-circle-header .card-header .pop-up h3, .header .box-header .container-figure .card-circle-header .card-header .description-figure, .header .box-header .container-figure .card-circle-header .card-header .number-figure, .header .box-header .container-figure .card-circle-header .card-header .title-figure, .header .box-header .header-title {
+  margin: 0;
+}
+
+.no-border, .header .box-header .container-figure .card-circle-header .card-header .btn-figure {
+  border: none;
+}
+
+.text-align-center, .header .box-header .header-title, .card-header {
+  text-align: center;
+}
+
+.text-align-left, .header .box-header .container-figure .card-circle-header .card-header .pop-up h3 {
+  text-align: left;
+}
+
+.text-align-right {
+  text-align: right;
+}
+
+.text-deco-none, .card-message {
+  text-decoration: none;
+}
+
+.padding-none, .header .box-header {
+  padding: 0;
+}
+
+.pull-right {
+  float: right;
+}
+
+.position-absolute, .card-message {
+  position: absolute;
+}
+
+.position-relative {
+  position: relative;
+}
+
+.width-full, .header .box-header .container-figure .card-circle-header .card-header .pop-up, .header {
+  width: 100%;
+}
+
+.z-index-10, .card-header {
+  z-index: 10;
+}
+
+.z-shadow, .header .box-header .container-figure .card-circle-header .card-header .btn-figure, .card-message {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15), 0 2px 7px 0 rgba(0, 0, 0, 0.1);
+}
+
+.z-shadow-light, .card-header {
+  box-shadow: 20px 20px 60px rgba(190, 190, 190, 0.25), -20px -20px 60px rgba(255, 255, 255, 0.25);
+}
+
+.z-shadow-card, .card-message {
+  box-shadow: 20px 20px 60px rgba(190, 190, 190, 0.25), -20px -20px 60px rgba(255, 255, 255, 0.25);
+  border-radius: 30px;
+  z-index: 10;
+}
+
+.z-text-shadow, .header .box-header .container-figure .card-circle-header .card-header .title-figure {
+  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.card-header {
+  background-color: #fff;
+  border-radius: 30px;
+  height: 425px;
+  margin: -55px auto 0 auto;
+  padding: 30px 0 0 0;
+  width: 340px;
+}
+
+.card-circle-header {
+  background-color: #FFE3E3;
+  border: 34px solid rgba(255, 255, 255, 0.75);
+  height: 370px;
+  width: 415px;
+}
+
+.card-message {
+  background: rgba(255, 255, 255, 0.75);
+  margin: 1.5rem 0 0 -14rem;
+  padding: 15px 30px;
+  /* width: 333.05px; */
+}
+
+/************** RESPONSIVE **************/
+@media (min-width: 340px) and (max-width: 820px) {
+  .card-header {
+    height: 380px;
+    margin: -55px auto 0 auto;
+    padding: 30px 0 0 0;
+    width: 260px;
+  }
+
+  .card-circle-header {
+    background-color: #FFE3E3;
+    border: 34px solid rgba(255, 255, 255, 0.75);
+    border-radius: 50%;
+    height: 270px;
+    margin: 0 auto;
+    width: 300px;
+  }
+
+  .card-message {
+    border-radius: 20px;
+    margin: 2.5rem 0 0 -3rem;
+    padding: 5px 25px;
+    transform: rotate(25deg);
+  }
+}
+.flex {
+  display: flex;
+}
+
+.flex-align-center {
+  align-items: center;
+}
+
+.flex-column {
+  flex-direction: column;
+}
+
+.flex-row {
+  flex-direction: row;
+}
+
+.container {
+  max-width: 1140px;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  /* if you have more elements, this property allow continue above */
+}
+
+.col-1, .col-2, .col-3, .col-4, .col-5, .col-6, .col-7, .col-8, .col-9, .col-10, .col-11, .col-12 {
+  position: relative;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.col-1 {
+  flex: 0 0 8.333333%;
+  max-width: 8.333333%;
+}
+
+.col-2 {
+  flex: 0 0 16.666667%;
+  max-width: 16.666667%;
+}
+
+.col-3 {
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+
+.col-4 {
+  flex: 0 0 33.333333%;
+  max-width: 33.333333%;
+}
+
+.col-5 {
+  flex: 0 0 41.666667%;
+  max-width: 41.666667%;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.col-7 {
+  flex: 0 0 58.333333%;
+  max-width: 58.333333%;
+}
+
+.col-8 {
+  flex: 0 0 66.666667%;
+  max-width: 66.666667%;
+}
+
+.col-9 {
+  flex: 0 0 75%;
+  max-width: 75%;
+}
+
+.col-10 {
+  flex: 0 0 83.333333%;
+  max-width: 83.333333%;
+}
+
+.col-11 {
+  flex: 0 0 91.666667%;
+  max-width: 91.666667%;
+}
+
+.col-12 {
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.header {
+  background-color: #FF6B6B;
+  height: 97vh;
+}
+.header .box-header .logo {
+  height: 50px;
+  padding-top: 30px;
+  width: 300px;
+}
+.header .box-header .header-title {
+  color: #fff;
+  line-height: 60px;
+}
+.header .box-header .header-title span {
+  color: rgba(255, 255, 255, 0.75);
+}
+.header .box-header .container-figure {
+  margin-top: 2.2rem;
+}
+.header .box-header .container-figure .card-circle-header .card-header .title-figure {
+  color: rgba(0, 0, 0, 0.75);
+  line-height: 33px;
+}
+.header .box-header .container-figure .card-circle-header .card-header .number-figure {
+  color: #000000;
+  font-size: 100px;
+  line-height: 110px;
+}
+.header .box-header .container-figure .card-circle-header .card-header .dolar-figure {
+  color: rgba(0, 0, 0, 0.75);
+  font-size: 48px;
+  line-height: 65px;
+}
+.header .box-header .container-figure .card-circle-header .card-header .description-figure {
+  color: #FF6B6B;
+  line-height: 49px;
+}
+.header .box-header .container-figure .card-circle-header .card-header .btn-figure {
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: 2rem;
+  margin-top: 15px;
+  padding: 10px 0px;
+  opacity: 0.6;
+  width: 170px;
+}
+.header .box-header .container-figure .card-circle-header .card-header .btn-figure:hover {
+  background-color: #e94a47;
+}
+.header .box-header .container-figure .card-circle-header .card-header .pop-up h3 {
+  color: #000000;
+  font-size: 24px;
+  line-height: 13px;
+  width: 263px;
+}
+.header .box-header .container-figure .card-circle-header .card-header .pop-up h3:last-child {
+  font-size: 18px;
+  line-height: 20px;
+}
+.header .box-header .container-figure .card-circle-header .card-header .pop-up .love-img {
+  height: 340px;
+  margin-top: -67px;
+  width: 360px;
+}
+
+/************** RESPONSIVE **************/
+@media (min-width: 340px) and (max-width: 820px) {
+  .header {
+    height: 65vh;
+  }
+  .header .box-header .header-title {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  .header .box-header .header-title span {
+    font-size: 14px;
+  }
+  .header .box-header .container-figure .card-circle-header .card-header .title-figure {
+    font-size: 14px;
+  }
+  .header .box-header .container-figure .card-circle-header .card-header .number-figure {
+    font-size: 50px;
+    line-height: 40px;
+  }
+  .header .box-header .container-figure .card-circle-header .card-header .dolar-figure {
+    font-size: 24px;
+  }
+  .header .box-header .container-figure .card-circle-header .card-header .description-figure {
+    font-size: 24px;
+    line-height: 39px;
+  }
+  .header .box-header .container-figure .card-circle-header .card-header .btn-figure {
+    border-radius: 2rem;
+    margin-top: 30px;
+    padding: 5px 0px;
+    width: 170px;
+  }
+  .header .box-header .container-figure .card-circle-header .card-header .pop-up {
+    width: 50%;
+  }
+  .header .box-header .container-figure .card-circle-header .card-header .pop-up h3 {
+    font-size: 15px;
+    line-height: 13px;
+    width: 150px;
+  }
+  .header .box-header .container-figure .card-circle-header .card-header .pop-up h3:last-child {
+    font-size: 12px;
+    line-height: 15px;
+  }
+  .header .box-header .container-figure .card-circle-header .card-header .pop-up .love-img {
+    height: 300px;
+    margin-top: -37px;
+    width: 300px;
+  }
+}
+html, body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: "Open Sans", "Open-sans", sans-serif, Arial, "Trebuchet MS", "Lucida Sans Unicode";
+}
+
+/*# sourceMappingURL=styles.css.map */
