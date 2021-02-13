@@ -1,0 +1,58 @@
+.card-header {
+  @extend .text-align-center;
+  @extend .z-shadow-light;
+  @extend .z-index-10;
+  background-color: $white;
+  border-radius: 30px;
+  height: 425px;
+  margin: -55px auto 0 auto;
+  padding: 30px 0 0 0;
+  width: 340px;
+}
+
+.card-circle-header {
+  @extend .border-circle;
+  @extend .margin-auto;
+  background-color: $pink-light;
+  border: 34px solid $white-light;
+  height: 370px;
+  width: 415px;
+}
+
+.card-message {
+  @extend .inline-block;
+  @extend .position-absolute;
+  @extend .text-deco-none;
+  @extend .z-shadow;
+  @extend .z-shadow-card;
+  background: $white-light;
+  margin: 1.5rem 0 0 -14rem;
+  padding: 15px 30px;
+  /* width: 333.05px; */
+}
+
+/************** RESPONSIVE **************/
+@media (min-width: 340px) and (max-width: 820px) {
+  .card-header {
+    height: 380px;
+    margin: -55px auto 0 auto;
+    padding: 30px 0 0 0;
+    width: 260px;
+  }
+
+  .card-circle-header {
+    background-color: $pink-light;
+    border: 34px solid $white-light;
+    border-radius: 50%;
+    height: 270px;
+    margin: 0 auto;
+    width: 300px;
+  }
+
+  .card-message {
+    border-radius: 20px;
+    margin: 2.5rem 0 0 -3rem;
+    padding: 5px 25px;
+    transform: rotate(25deg);
+  }
+}
