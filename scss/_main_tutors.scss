@@ -1,0 +1,25 @@
+.tutores {
+    @extend .height-full;
+    @extend .position-relative;
+        .box-center {
+          @extend .position-absolute;
+          @extend .text-center;
+          @extend .width-full;
+          bottom: 0;
+          height: 50vh;
+          .box-line {
+            @extend .flex;
+            @extend .flex-align-center;
+            @extend .flex-direction-column;
+            @extend .position-relative;
+          }
+          .info-phone {
+            @extend .flex;
+            @extend .flex-justify-center;
+            @extend .position-relative;
+            @extend .width-full;
+            margin-top: 4rem;
+          }
+        }
+        
+}
