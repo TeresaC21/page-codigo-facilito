@@ -4,7 +4,7 @@
   @extend .z-index-10;
   background-color: $white;
   border-radius: 30px;
-  height: 425px;
+  height: 465px;
   margin: -55px auto 0 auto;
   padding: 30px 0 0 0;
   width: 340px;
@@ -26,10 +26,41 @@
   @extend .z-shadow;
   @extend .z-shadow-card;
   background: $white-light;
-  margin: 1.5rem 0 0 -14rem;
   padding: 15px 30px;
-  /* width: 333.05px; */
 }
+
+.text-card-message {
+    h3 {
+        @extend .font-bold;
+        @extend .margin-none;
+        @extend .text-align-left;
+        color: $dark;
+        font-size: 20px;
+        line-height: 20px;
+        width: 263px;
+      }
+      h3:last-child {
+        @extend .font-weight-slim;
+        font-size: 18px;
+        line-height: 20px;
+      }
+}
+
+.line {
+    border-bottom: 15px solid $pink;
+    height: 15px;
+    margin-left: 16rem;
+    margin-top: -5rem;
+    transform: rotate(-4deg);
+    width: 380.71px;
+  }
+
+  .line-phone {
+    border-bottom: 15px solid $pink;
+    height: 15px;
+    transform: rotate(-4deg);
+    width: 474.98px;
+  }
 
 /************** RESPONSIVE **************/
 @media (min-width: 340px) and (max-width: 820px) {
@@ -46,13 +77,24 @@
     border-radius: 50%;
     height: 270px;
     margin: 0 auto;
-    width: 300px;
+    width: 280px;
   }
 
   .card-message {
     border-radius: 20px;
-    margin: 2.5rem 0 0 -3rem;
     padding: 5px 25px;
-    transform: rotate(25deg);
+  }
+
+  .line {
+    height: 7px;
+    margin-left: 7.5rem;
+    margin-top: -3rem;
+    transform: rotate(-5deg);
+    width: 190.71px;
+  }
+
+  .line-phone {
+    height: 10px;
+    width: 210.71px;
   }
 }

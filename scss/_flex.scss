@@ -6,8 +6,16 @@
     align-items: center;
 }
 
-.flex-column {
+.flex-direction-column {
     flex-direction: column;
+}
+
+.flex-justify-center {
+    justify-content: center;
+}
+
+.flex-justify-end {
+    justify-content: end;
 }
 
 .flex-row {

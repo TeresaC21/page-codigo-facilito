@@ -39,6 +39,10 @@
   font-weight: 400;
 }
 
+.height-full {
+    height: 100vh;
+}
+
 .inline-block {
   display: inline-block;
 }
@@ -49,6 +53,10 @@
 
 .margin-none {
   margin: 0;
+}
+
+.mt7 {
+    margin-top: 7rem;
 }
 
 .no-border {
@@ -65,6 +73,10 @@
 
 .text-align-right {
   text-align: right;
+}
+
+.text-center {
+    text-align: center;
 }
 
 .text-deco-none {
