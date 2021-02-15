@@ -73,6 +73,7 @@
             .btn-figure {
               @extend .font-small;
               @extend .no-border;
+              @extend .hvr-wobble-vertical;
               @extend .z-shadow;
               background: $white-light;
               border-radius: 2rem;
@@ -81,7 +82,8 @@
               opacity: 0.6;
               width: 170px;
               &:hover {
-                background-color: $red-cora;
+                background-color: red;
+                color: $white;
               }
             }
           }
@@ -119,7 +121,7 @@
 }
 
 /************** RESPONSIVE **************/
-@media (min-width: 340px) and (max-width: 820px) {
+@media (min-width: 315px) and (max-width: 820px) {
   .header {
     height: 70vh;
     .box-header {
@@ -205,5 +207,15 @@
 
         }
     }
+}
+
+@media (min-width: 1500px) {
+  .header {
+    height: 80vh;
+    .container-figure {
+            height: 55vh !important;
+
+    }
+}
 }
 
