@@ -117,8 +117,7 @@ Happy hack coding muy importante es algunos pro tips sobre el código en SASS en
 
 ```
 
-````css
-
+```css
 .card-message:first-child {
           margin: 13rem 0 0 -13rem;
           width: 270px;
