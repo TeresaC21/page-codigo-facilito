@@ -141,5 +141,5 @@ Continuación con el aprendizaje y mejora consstantemente.
 
 :green_heart:
 
-[Github Código Fácilito](https://github.com/codigofacilito). :star2:
-[Teresa Carbajal](https://github.com/TeresaC21). :star2:
+- [Github Código Fácilito](https://github.com/codigofacilito). :star2:
+- [Teresa Carbajal](https://github.com/TeresaC21). :star2:
