@@ -18,9 +18,9 @@ Colaboración y reto junto a [Código Fácilito](https://codigofacilito.com/) Pr
 
 Pensado en implementar con pre procesador SASS con extensión usada SCSS y utilidades para una mejora en la estructura del proyecto.
 
-Nesting (Anidado)
+#### Nesting (Anidado)
 
-En HTML cada elemento tiene una jerarquía que hace que los elementos esten ordenados, como ejemplo el menú de navegación que tiene una jerarquía nav > ul > li > a o en este caso un  ejemplo práctico:
+Una pequeña intro al trabajo en el proyecto en base que en HTML cada elemento tiene una jerarquía que hace que los elementos esten ordenados, como ejemplo el menú de navegación que tiene una jerarquía nav > ul > li > a o en este caso un  ejemplo práctico del proyecto:
 
 ```css
 header {
@@ -142,10 +142,8 @@ Happy hack coding muy importante es algunos pro tips sobre el código en SASS en
 
 ```css
 .card-message:first-child {
-          margin: 13rem 0 0 -13rem;
-          width: 270px;
-        }
-    }
+  margin: 13rem 0 0 -13rem;
+  width: 270px;
 }
 
 ```
