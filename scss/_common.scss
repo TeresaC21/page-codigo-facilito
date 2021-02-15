@@ -1,5 +1,13 @@
+.border-solid {
+  border: 1px solid $black-light;
+}
+
 .border-circle {
   border-radius: 50%;
+}
+
+.bottom-0 {
+  bottom: 0;
 }
 
 .container-no-full {
