@@ -136,7 +136,7 @@ Happy hack coding muy importante es algunos pro tips sobre el código en SASS en
 }
 
 ```
-__
+Continuación con el aprendizaje y mejora consstantemente.
 
 ## Contribución 
 
