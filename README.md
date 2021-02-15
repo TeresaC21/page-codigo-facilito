@@ -8,13 +8,34 @@ Colaboración y reto junto a [Código Fácilito](https://codigofacilito.com/) Pr
 
 - [Documentación](#documentación)
 - [Inicialización de proyecto](#iniciación-de-proyecto)
-- [Sobre el proyecto](#sobre-el-proyecto)
 - [Estructura del proyecto](#estructura-del-proyecto)
+- [Sobre el proyecto](#sobre-el-proyecto)
 - [Recomendaciones](#recomendaciones)
 
 ## Documentación 
 
 :closed_book:
+
+Pensado en implementar con pre procesador SASS con extensión usada SCSS y utilidades para una mejora en la estructura del proyecto.
+
+Nesting (Anidado)
+
+En HTML cada elemento tiene una jerarquía que hace que los elementos esten ordenados, como ejemplo el menú de navegación que tiene una jerarquía nav > ul > li > a o en este caso un  ejemplo práctico:
+
+```css
+header {
+  @extend .width-full;
+  background-color: $pink;
+  height: 90vh;
+  .box-header {
+    @extend .padding-none;
+    .logo {
+      height: 50px;
+      width: 300px;
+    }
+  }
+}
+```
 
 #### Importado 
 
@@ -44,15 +65,6 @@ Alguna de las particularidades que se usa en dicho proyecto,
 - El operador AMPERSAND es una característica muy usada en SCSS ó mayormente dicho SASS
 - Esta es una propiedad muy buena de SCSS que nos ayuda a reciclar mucho de nuestras clases ya que podemos extender dentro de otras clases llamando nuestro extend en distintos elementos que cubre las mismas necesidades
 
-## Estructura del proyecto 
-
-:pushpin:
-
-Para este proyecto se útilizo una estructura en distintos archivos como los assets, archivos para nuestro CSS y una estructura con sus particularedades en HTML para tener una mejor visibilidad ante los buscadores de google tales como etiquetas header main section, con la respetando lo más posible la nomenclatura y nombramiento de los elementos de nuestro HTML.
-
-![Alt Estructura de proyecto](https://github.com/TeresaC21/page-codigo-facilito/blob/master/images_readme/estructura.png)
-
-
 ## Iniciación de Proyecto 
 
 :pencil2:
@@ -77,6 +89,15 @@ sass --watch scss/styles.scss:css/styles.css
 [SASS](https://sass-guidelin.es/)
  [Aprender más](https://git.inegi.org.mx/MARCO.IBARRA/sass-boilerplate/blob/master/README.md) más detalle sobre la funcionalidad de sass para compilar tú css y más.
 
+
+
+## Estructura del proyecto 
+
+:pushpin:
+
+Para este proyecto se útilizo una estructura en distintos archivos como los assets, archivos para nuestro CSS y una estructura con sus particularedades en HTML para tener una mejor visibilidad ante los buscadores de google tales como etiquetas header main section, con la respetando lo más posible la nomenclatura y nombramiento de los elementos de nuestro HTML.
+
+![Alt Estructura de proyecto](https://github.com/TeresaC21/page-codigo-facilito/blob/master/images_readme/estructura.png)
 
 ## Sobre el proyecto 
 
