@@ -896,7 +896,7 @@
 }
 .header {
   background-color: #FF6B6B;
-  height: 95vh;
+  height: 98vh;
 }
 .header .box-header .logo {
   height: 50px;
@@ -911,7 +911,7 @@
   color: rgba(255, 255, 255, 0.75);
 }
 .header .box-header .container-figure {
-  height: 62vh;
+  height: 65vh;
 }
 .header .box-header .container-figure .move-box {
   bottom: 0;

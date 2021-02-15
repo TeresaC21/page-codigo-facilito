@@ -3,7 +3,7 @@
 .header {
   @extend .width-full;
   background-color: $pink;
-  height: 95vh;
+  height: 98vh;
   .box-header {
     @extend .flex;
     @extend .flex-align-center;
@@ -31,7 +31,7 @@
     .container-figure {
         @extend .position-relative;
         @extend .width-full;
-        height: 62vh;
+        height: 65vh;
       .move-box {
         @extend .position-absolute;
        bottom: 0;
