@@ -39,7 +39,7 @@ Importaciones que se manejan en el proyecto de archivos SASS esto nos ayuda a id
 
 :pushpin:
 
-Alguna de las particularidades que usamos en dicho proyecto, 
+Alguna de las particularidades que se usa en dicho proyecto, 
 - :ntd-child(n) nos ayuda mucho para no duplicar clases o código y así solo aplicar dentro de un grupo de elementos HTML solo a los elementos que necesitamos dar las propiedades.
 - El operador AMPERSAND es una característica muy usada en SCSS ó mayormente dicho SASS
 - Esta es una propiedad muy buena de SCSS que nos ayuda a reciclar mucho de nuestras clases ya que podemos extender dentro de otras clases llamando nuestro extend en distintos elementos que cubre las mismas necesidades
@@ -82,9 +82,11 @@ sass --watch scss/styles.scss:css/styles.css
 
 :eyes:
 
-La idea sobre aprender y mejorar las técnicas y reforzamiento, donde se implementa con bases más solidas sobre el conocimiento del diseño en Figma proporcionado por el team, así como reforzar las distintas tecnologias a utilir como css, sass, html. En el código se buscó la parte de ordenar de la mejor manera, como reutilización de clases, orden de archivos, orden alfábetico para una mejor utilidad a nuestro código y considerando la mejora para distita resolución y dispositivo, lo mejor posible. Dar un aspecto un tanto sutíl, limpio pero llamativo con algunas animaciones en algunos hover.
+La idea sobre aprender y mejorar las técnicas y reforzamiento, donde se implementa con bases más solidas sobre el conocimiento del diseño en Figma proporcionado por el team, así como reforzar las distintas tecnologias a utilir como CSS, SASS, HTML. 
+En el código se buscó la parte de ordenar de la mejor manera, como reutilización de clases, orden de archivos, orden alfábetico para una mejor utilidad a nuestro código y considerando la mejora para distita resolución y dispositivo, lo mejor posible. 
+Dar un aspecto un tanto sutíl, limpio pero llamativo con animaciones en algunos hover.
 
-Visualmente:
+### Visualmente:
 
 ![Alt Estructura de proyecto](https://github.com/TeresaC21/page-codigo-facilito/blob/master/images_readme/page-learning.png)
 
