@@ -137,7 +137,7 @@ Happy hack coding muy importante es algunos pro tips sobre el código en SASS en
 
 ```
 
-### Contribución 
+# Contribución 
 
 :green_heart:
 
