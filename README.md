@@ -35,9 +35,9 @@ Importaciones que se manejan en el proyecto de archivos SASS esto nos ayuda a id
 @import 'variable';
 
 ```
-#### Operador '&' 'extend' 
+#### Operador '&' 'extend' :ntd-child(n)' 
 
-:ntd-child(n)' :pushpin:
+:pushpin:
 
 Alguna de las particularidades que usamos en dicho proyecto, 
 - :ntd-child(n) nos ayuda mucho para no duplicar clases o código y así solo aplicar dentro de un grupo de elementos HTML solo a los elementos que necesitamos dar las propiedades.
