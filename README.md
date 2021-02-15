@@ -50,7 +50,7 @@ Alguna de las particularidades que usamos en dicho proyecto,
 
 Para este proyecto se útilizo una estructura en distintos archivos como los assets, archivos para nuestro CSS y una estructura con sus particularedades en HTML para tener una mejor visibilidad ante los buscadores de google tales como etiquetas header main section, con la respetando lo más posible la nomenclatura y nombramiento de los elementos de nuestro HTML.
 
-!Alt[Estructura de proyecto](https://github.com/TeresaC21/page-codigo-facilito/blob/master/images_readme/estructura.png)
+![Alt Estructura de proyecto](https://github.com/TeresaC21/page-codigo-facilito/blob/master/images_readme/estructura.png)
 
 
 ## Iniciación de Proyecto 
@@ -86,10 +86,10 @@ La idea sobre aprender y mejorar las técnicas y reforzamiento, donde se impleme
 
 Visualmente:
 
-![Estructura de proyecto](https://github.com/TeresaC21/page-codigo-facilito/blob/master/images_readme/page-learning.png)
+![Alt Estructura de proyecto](https://github.com/TeresaC21/page-codigo-facilito/blob/master/images_readme/page-learning.png)
 
 
-![Estructura de proyecto](https://github.com/TeresaC21/page-codigo-facilito/blob/master/images_readme/phone.JPEG)
+![Alt Estructura de proyecto](https://github.com/TeresaC21/page-codigo-facilito/blob/master/images_readme/phone.JPEG)
 
 
 ## Recomendaciones 
