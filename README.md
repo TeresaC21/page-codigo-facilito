@@ -16,7 +16,7 @@ Colaboración y reto junto a [Código Fácilito](https://codigofacilito.com/) Pr
 
 :closed_book:
 
-#### Importandos 
+#### Importado 
 
 Importaciones que se manejan en el proyecto de archivos SASS esto nos ayuda a identificar fácilmente, como donde se encuentra nuestras secciones de la página así como **header** dentro de **main** las distintas secciones el cual es nombrado seguido del nombre de su sección y así también se nombra para nuestro grid, flex y archivo para componentes y clases que se utilizan continuamente como display inline block, margin, border, witdth, font, position, shadow, etc.
 
