@@ -1,8 +1,6 @@
-# WEB CÓDIGO FÁCILITO :D
+# WEB CÓDIGO FÁCILITO :)
 
 Colaboración y reto junto a código fácilito [Código Fácilito](https://codigofacilito.com/) Proyecto basado en prototipo de diseño proporcionado por códigofacilito.com [Web Page](https://web-codigo-facilito.netlify.app/).
-
-![Estructura de proyecto](https://github)
 
 ## Contenido :heart_eyes:
 
@@ -12,9 +10,9 @@ Colaboración y reto junto a código fácilito [Código Fácilito](https://codig
 - [Deploy](#deploy-netlify)
 - [Recommended Tools](#recomendaciones)
 
-## Documentación :bookmark:
+## Documentación :closed_book:
 
-#### Importandos
+#### Importandos 
 
 Importaciones que se manejan en el proyecto de archivos SASS esto nos ayuda a identificar fácilmente, como donde se encuentra nuestras secciones de la página así como **header** dentro de **main** las distintas secciones el cual es nombrado seguido del nombre de su sección y así también se nombra para nuestro grid, flex y archivo para componentes y clases que se utilizan continuamente como display inline block, margin, border, witdth, font, position, shadow, etc.
 
@@ -33,18 +31,18 @@ Importaciones que se manejan en el proyecto de archivos SASS esto nos ayuda a id
 @import 'variable';
 
 ```
-#### Operador '&' 'extend' ':ntd-child(n)'
+#### Operador '&' 'extend' ':ntd-child(n)' :pushpin:
 
 Alguna de las particularidades que usamos en dicho proyecto, 
 - :ntd-child(n) nos ayuda mucho para no duplicar clases o código y así solo aplicar dentro de un grupo de elementos HTML solo a los elementos que necesitamos dar las propiedades.
 - El operador AMPERSAND es una característica muy usada en SCSS ó mayormente dicho SASS
 - Esta es una propiedad muy buena de SCSS que nos ayuda a reciclar mucho de nuestras clases ya que podemos extender dentro de otras clases llamando nuestro extend en distintos elementos que cubre las mismas necesidades
 
-### Estructura del proyecto
+### Estructura del proyecto :pushpin:
 
 Para este proyecto se útilizo una estructura en distintos archivos como los assets, archivos para nuestro CSS y una estructura con sus particularedades en HTML para tener una mejor visibilidad ante los buscadores de google tales como etiquetas header main section, con la respetando lo más posible la nomenclatura y nombramiento de los elementos de nuestro HTML.
 
-![Estructura de proyecto](https://github)
+![Estructura de proyecto](https://github.com/TeresaC21/page-codigo-facilito/blob/master/images_readme/estructura.png)
 
 
 ## Iniciación de Proyecto :pencil2:
@@ -76,10 +74,10 @@ La idea sobre aprender y mejorar las técnicas y reforzamiento, donde se impleme
 
 Visualmente:
 
-![Estructura de proyecto](https://github)
+![Estructura de proyecto](https://github.com/TeresaC21/page-codigo-facilito/blob/master/images_readme/page-learning.png)
 
 
-![Estructura de proyecto](https://github)
+![Estructura de proyecto](https://github.com/TeresaC21/page-codigo-facilito/blob/master/images_readme/phone.JPEG)
 
 
 ## Recomendaciones :ok_hand:
