@@ -1,20 +1,14 @@
 .services {
   @extend .position-relative;
-  height: 75vh;
   .box-center {
-    @extend .position-absolute;
     @extend .text-center;
     @extend .width-full;
-    bottom: 0;
-    height: 50vh;
+    margin-top: 15rem;
     .title-services {
-      @extend .flex;
-      @extend .flex-align-center;
-      @extend .flex-direction-column;
-      @extend .position-relative;
       h2 {
         @extend .font-weight-slim;
         @extend .z-index-10;
+        @extend .position-relative;
         font-size: 48px;
         line-height: 65px;
         span {
@@ -53,9 +47,8 @@
 
 @media (min-width: 315px) and (max-width: 820px) {
   .services {
-    height: 85vh;
     .box-center {
-      height: 65vh;
+      margin-top: 20rem;
       .title-services {
         h2 {
           @extend .font-weight-slim;
