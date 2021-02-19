@@ -1122,7 +1122,7 @@
 /* @media (min-width: 1381px) and (max-width: 1500px) { */
 @media (min-width: 821px) and (max-width: 1380px) {
   .course {
-    height: 133vh !important;
+    height: 113vh !important;
   }
   .course .box-center {
     height: 90vh !important;
