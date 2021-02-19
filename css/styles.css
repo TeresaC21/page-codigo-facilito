@@ -1201,9 +1201,6 @@
   width: 71px;
   height: 71px;
 }
-.tutores .box-center .tutors-up .card-circle-tutor:nth-child(1) {
-  background-color: red;
-}
 .tutores .box-center .tutors-up .card-circle-tutor:nth-child(1) .card-message {
   margin: 13rem 0 0 -2.7rem;
   width: 270px;
@@ -1217,7 +1214,6 @@
   width: 510px;
 }
 .tutores .box-center .tutors-up .card-circle-tutor:nth-child(2) {
-  background-color: blue;
   margin-top: -6rem;
 }
 .tutores .box-center .tutors-up .card-circle-tutor:nth-child(2) .card-message {
@@ -1228,9 +1224,6 @@
 .tutores .box-center .tutors-up .card-circle-tutor:nth-child(2) .two {
   height: 370px;
   width: 370px;
-}
-.tutores .box-center .tutors-up .card-circle-tutor:nth-child(3) {
-  background-color: yellow;
 }
 .tutores .box-center .tutors-up .card-circle-tutor:nth-child(3) .card-message {
   margin: 19rem 0 0 -5rem;
@@ -1277,9 +1270,6 @@
     width: 51px;
     height: 51px;
   }
-  .tutores .box-center .tutors-up .card-circle-tutor:nth-child(1) {
-    background-color: red;
-  }
   .tutores .box-center .tutors-up .card-circle-tutor:nth-child(1) .card-message {
     margin: 0 0 0 0;
     width: 270px;
@@ -1294,7 +1284,6 @@
     height: 240px;
   }
   .tutores .box-center .tutors-up .card-circle-tutor:nth-child(2) {
-    background-color: blue;
     margin-top: 0rem;
   }
   .tutores .box-center .tutors-up .card-circle-tutor:nth-child(2) .card-message {
@@ -1351,9 +1340,6 @@
     width: 51px;
     height: 51px;
   }
-  .tutores .tutors-up .card-circle-tutor:nth-child(1) {
-    background-color: red;
-  }
   .tutores .tutors-up .card-circle-tutor:nth-child(1) .card-message {
     margin: 0 0 0 0;
     width: 270px;
@@ -1368,7 +1354,6 @@
     height: 240px;
   }
   .tutores .tutors-up .card-circle-tutor:nth-child(2) {
-    background-color: blue;
     margin-top: 0rem;
   }
   .tutores .tutors-up .card-circle-tutor:nth-child(2) .card-message {
