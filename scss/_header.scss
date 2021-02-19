@@ -3,7 +3,7 @@
 .header {
   @extend .width-full;
   background-color: $pink;
-  height: 98vh;
+  height: 47rem;
   .box-header {
     @extend .flex;
     @extend .flex-align-center;
@@ -31,7 +31,7 @@
     .container-figure {
         @extend .position-relative;
         @extend .width-full;
-        height: 65vh;
+        height: 31rem;
       .move-box {
         @extend .position-absolute;
        bottom: 0;
@@ -123,7 +123,7 @@
 /************** RESPONSIVE **************/
 @media (min-width: 315px) and (max-width: 820px) {
   .header {
-    height: 70vh;
+    height: 32rem;
     .box-header {
       .header-title {
         font-size: 20px;
@@ -134,7 +134,7 @@
       }
 
       .container-figure {
-        height: 50vh;
+        height: 23rem;
         .move-box {
           .card-circle-header {
             .card-header {
@@ -196,15 +196,15 @@
 
 @media (min-width: 821px) and (max-width: 1080px) {
     .header {
-        height: 84vh;
+        height: 40rem;
         .box-header {
             .header-title {
                 font-size: 36px;
+                line-height: 40px;
             }
         }
         .container-figure {
-                height: 55vh !important;
-
+                height: 29rem !important;
         }
     }
 }
