@@ -293,11 +293,11 @@
   float: right;
 }
 
-.position-absolute, .services .box-center, .course .box-center, .header .box-header .container-figure .move-box, .card-message {
+.position-absolute, .course .box-center, .header .box-header .container-figure .move-box, .card-message {
   position: absolute;
 }
 
-.position-relative, .tutores .tutors-down, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(2) .two, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(1) .position-image .one, .tutores .box-center .box-position-title, .tutores .box-center .box-line, .tutores, .services .box-center .title-services, .services, .course .box-center .info-phone, .course .box-center .box-line, .course, .header .box-header .container-figure {
+.position-relative, .tutores .tutors-down, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(2) .two, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(1) .position-image .one, .tutores .box-center .box-position-title, .tutores .box-center .box-line, .tutores, .services .box-center .title-services h2, .services, .course .box-center .info-phone, .course .box-center .box-line, .course, .header .box-header .container-figure {
   position: relative;
 }
 
@@ -437,12 +437,7 @@
   .card-header {
     height: 270px;
     margin-top: -45px;
-    width: 260px;
-  }
-
-  .line {
-    margin-left: 0.5rem;
-    width: 120px;
+    width: 240px;
   }
 
   .line {
@@ -462,7 +457,7 @@
     width: 10px;
   }
 
-  h2, h3 {
+  h3 {
     width: 200px !important;
   }
 
@@ -896,7 +891,7 @@
 }
 .header {
   background-color: #FF6B6B;
-  height: 98vh;
+  height: 47rem;
 }
 .header .box-header .logo {
   height: 50px;
@@ -911,7 +906,7 @@
   color: rgba(255, 255, 255, 0.75);
 }
 .header .box-header .container-figure {
-  height: 65vh;
+  height: 31rem;
 }
 .header .box-header .container-figure .move-box {
   bottom: 0;
@@ -971,7 +966,7 @@
 /************** RESPONSIVE **************/
 @media (min-width: 315px) and (max-width: 820px) {
   .header {
-    height: 70vh;
+    height: 32rem;
   }
   .header .box-header .header-title {
     font-size: 20px;
@@ -981,7 +976,7 @@
     font-size: 14px;
   }
   .header .box-header .container-figure {
-    height: 50vh;
+    height: 23rem;
   }
   .header .box-header .container-figure .move-box .card-circle-header .card-header .title-figure {
     font-size: 14px;
@@ -1027,13 +1022,14 @@
 }
 @media (min-width: 821px) and (max-width: 1080px) {
   .header {
-    height: 84vh;
+    height: 40rem;
   }
   .header .box-header .header-title {
     font-size: 36px;
+    line-height: 40px;
   }
   .header .container-figure {
-    height: 55vh !important;
+    height: 29rem !important;
   }
 }
 @media (min-width: 1500px) {
@@ -1134,12 +1130,8 @@
     height: 90vh !important;
   }
 }
-.services {
-  height: 75vh;
-}
 .services .box-center {
-  bottom: 0;
-  height: 50vh;
+  margin-top: 15rem;
 }
 .services .box-center .title-services h2 {
   font-size: 48px;
@@ -1154,11 +1146,8 @@
 }
 
 @media (min-width: 315px) and (max-width: 820px) {
-  .services {
-    height: 85vh;
-  }
   .services .box-center {
-    height: 65vh;
+    margin-top: 20rem;
   }
   .services .box-center .title-services h2 {
     font-size: 25px;

@@ -5,6 +5,9 @@
     @extend .width-full;
     margin-top: 15rem;
     .title-services {
+      @extend .flex;
+      @extend .flex-direction-column;
+      @extend .flex-align-center;
       h2 {
         @extend .font-weight-slim;
         @extend .z-index-10;
