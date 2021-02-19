@@ -48,7 +48,6 @@
 
     .tutors-up {
       .card-circle-tutor:nth-child(1) {
-        background-color: red;
         .card-message {
           @extend .text-card-message;
           @extend .border-solid;
@@ -66,7 +65,6 @@
         }
       }
       .card-circle-tutor:nth-child(2) {
-        background-color: blue;
         margin-top: -6rem;
         .card-message {
           @extend .border-solid;
@@ -83,7 +81,6 @@
         }
       }
       .card-circle-tutor:nth-child(3) {
-        background-color: yellow;
         .card-message {
           @extend .border-solid;
           @extend .text-card-message;
@@ -147,7 +144,6 @@
 
       .tutors-up {
         .card-circle-tutor:nth-child(1) {
-          background-color: red;
           .card-message {
             margin: 0 0 0 0;
             width: 270px;
@@ -163,7 +159,6 @@
           }
         }
         .card-circle-tutor:nth-child(2) {
-          background-color: blue;
           margin-top: 0rem;
           .card-message {
             margin: 0 0 0 0;
@@ -237,7 +232,6 @@
 
     .tutors-up {
       .card-circle-tutor:nth-child(1) {
-        background-color: red;
         .card-message {
           margin: 0 0 0 0;
           width: 270px;
@@ -253,7 +247,6 @@
         }
       }
       .card-circle-tutor:nth-child(2) {
-        background-color: blue;
         margin-top: 0rem;
         .card-message {
           margin: 0 0 0 0;
