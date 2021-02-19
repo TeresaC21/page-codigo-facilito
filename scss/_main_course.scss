@@ -1,5 +1,6 @@
 .course {
   @extend .position-relative;
+  margin-top: 5rem;
   height: 100vh;
   .box-center {
     @extend .position-absolute;
@@ -62,12 +63,13 @@
         .pop-up-left {
           /* display: none; */
           .card-message:nth-child(1) {
+            margin: -10rem 0 0 0;
             width: 220px !important;
-            margin: -12rem 0 0 0;
           }
           .card-message:nth-child(2) {
-            width: 220px !important;
+            display: none;
             margin: -6rem 0 0 0;
+            width: 220px !important;
           }
         }
         img {
@@ -117,7 +119,7 @@
 /* @media (min-width: 1381px) and (max-width: 1500px) { */
   @media (min-width: 821px) and (max-width: 1380px) {
   .course {
-    height: 140vh !important;
+    height: 133vh !important;
     .box-center {
       height: 90vh !important;
     }
