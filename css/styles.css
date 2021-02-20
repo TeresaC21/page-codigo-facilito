@@ -192,7 +192,7 @@
   animation-iteration-count: 1;
 }
 
-.border-solid, .tutores .tutors-down .box-tutor .card-message, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(3) .card-message, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(2) .card-message, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(1) .card-message {
+.border-solid, .tutores .tutors-down .box-tutor .card-message, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(3) .card-message, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(2) .card-message, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(1) .card-message {
   border: 1px solid rgba(0, 0, 0, 0.75);
 }
 
@@ -209,7 +209,7 @@
   margin: 0 auto;
 }
 
-.font-bold, .tutores .box-center .box-position-title h2 span, .services .box-center .title-services h2 span, .header .box-header .container-figure .move-box .card-circle-header .pop-up .card-message h3, .header .box-header .container-figure .move-box .card-circle-header .card-header .dolar-figure, .header .box-header .container-figure .move-box .card-circle-header .card-header .number-figure, .text-card-message h3, .tutores .tutors-down .box-tutor .card-message h3, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(3) .card-message h3, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(2) .card-message h3, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(1) .card-message h3, .course .box-center .info-phone .pop-up-right .card-message:last-child h3, .course .box-center .info-phone .pop-up-right .card-message:first-child h3, .course .box-center .info-phone .pop-up-left .card-message:last-child h3, .course .box-center .info-phone .pop-up-left .card-message:first-child h3 {
+.font-bold, .tutores .box-center .box-position-title h2 span, .services .box-center .title-services h2 span, .header .box-header .container-figure .move-box .card-circle-header .pop-up .card-message h3, .header .box-header .container-figure .move-box .card-circle-header .card-header .dolar-figure, .header .box-header .container-figure .move-box .card-circle-header .card-header .number-figure, .text-card-message h3, .tutores .tutors-down .box-tutor .card-message h3, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(3) .card-message h3, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(2) .card-message h3, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(1) .card-message h3, .course .box-center .info-phone .pop-up-right .card-message:last-child h3, .course .box-center .info-phone .pop-up-right .card-message:first-child h3, .course .box-center .info-phone .pop-up-left .card-message:last-child h3, .course .box-center .info-phone .pop-up-left .card-message:first-child h3 {
   font-weight: bold;
 }
 
@@ -233,7 +233,7 @@
   font-size: 14px;
 }
 
-.font-weight-slim, .tutores .box-center .box-position-title h2, .services .box-center .info-services .boxes-services h3, .services .box-center .title-services h2, .header .box-header .container-figure .move-box .card-circle-header .pop-up .card-message h3:last-child, .header .box-header .header-title span, .text-card-message h3:last-child, .tutores .tutors-down .box-tutor .card-message h3:last-child, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(3) .card-message h3:last-child, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(2) .card-message h3:last-child, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(1) .card-message h3:last-child, .course .box-center .info-phone .pop-up-right .card-message:last-child h3:last-child, .course .box-center .info-phone .pop-up-right .card-message:first-child h3:last-child, .course .box-center .info-phone .pop-up-left .card-message:last-child h3:last-child, .course .box-center .info-phone .pop-up-left .card-message:first-child h3:last-child {
+.font-weight-slim, .tutores .box-center .box-position-title h2, .services .box-center .info-services .boxes-services h3, .services .box-center .title-services h2, .header .box-header .container-figure .move-box .card-circle-header .pop-up .card-message h3:last-child, .header .box-header .header-title span, .text-card-message h3:last-child, .tutores .tutors-down .box-tutor .card-message h3:last-child, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(3) .card-message h3:last-child, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(2) .card-message h3:last-child, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(1) .card-message h3:last-child, .course .box-center .info-phone .pop-up-right .card-message:last-child h3:last-child, .course .box-center .info-phone .pop-up-right .card-message:first-child h3:last-child, .course .box-center .info-phone .pop-up-left .card-message:last-child h3:last-child, .course .box-center .info-phone .pop-up-left .card-message:first-child h3:last-child {
   font-weight: 200;
 }
 
@@ -253,7 +253,7 @@
   margin: 0 auto;
 }
 
-.margin-none, .tutores .box-center .box-position-title h2, .header .box-header .container-figure .move-box .card-circle-header .pop-up .card-message h3, .header .box-header .container-figure .move-box .card-circle-header .card-header .description-figure, .header .box-header .container-figure .move-box .card-circle-header .card-header .number-figure, .header .box-header .container-figure .move-box .card-circle-header .card-header .title-figure, .header .box-header .header-title, .text-card-message h3, .tutores .tutors-down .box-tutor .card-message h3, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(3) .card-message h3, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(2) .card-message h3, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(1) .card-message h3, .course .box-center .info-phone .pop-up-right .card-message:last-child h3, .course .box-center .info-phone .pop-up-right .card-message:first-child h3, .course .box-center .info-phone .pop-up-left .card-message:last-child h3, .course .box-center .info-phone .pop-up-left .card-message:first-child h3 {
+.margin-none, .tutores .box-center .box-position-title h2, .header .box-header .container-figure .move-box .card-circle-header .pop-up .card-message h3, .header .box-header .container-figure .move-box .card-circle-header .card-header .description-figure, .header .box-header .container-figure .move-box .card-circle-header .card-header .number-figure, .header .box-header .container-figure .move-box .card-circle-header .card-header .title-figure, .header .box-header .header-title, .text-card-message h3, .tutores .tutors-down .box-tutor .card-message h3, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(3) .card-message h3, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(2) .card-message h3, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(1) .card-message h3, .course .box-center .info-phone .pop-up-right .card-message:last-child h3, .course .box-center .info-phone .pop-up-right .card-message:first-child h3, .course .box-center .info-phone .pop-up-left .card-message:last-child h3, .course .box-center .info-phone .pop-up-left .card-message:first-child h3 {
   margin: 0;
 }
 
@@ -269,7 +269,7 @@
   text-align: center;
 }
 
-.text-align-left, .tutores .box-center .box-position-title h2, .header .box-header .container-figure .move-box .card-circle-header .pop-up .card-message h3, .text-card-message h3, .tutores .tutors-down .box-tutor .card-message h3, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(3) .card-message h3, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(2) .card-message h3, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(1) .card-message h3, .course .box-center .info-phone .pop-up-right .card-message:last-child h3, .course .box-center .info-phone .pop-up-right .card-message:first-child h3, .course .box-center .info-phone .pop-up-left .card-message:last-child h3, .course .box-center .info-phone .pop-up-left .card-message:first-child h3 {
+.text-align-left, .tutores .box-center .box-position-title h2, .header .box-header .container-figure .move-box .card-circle-header .pop-up .card-message h3, .text-card-message h3, .tutores .tutors-down .box-tutor .card-message h3, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(3) .card-message h3, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(2) .card-message h3, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(1) .card-message h3, .course .box-center .info-phone .pop-up-right .card-message:last-child h3, .course .box-center .info-phone .pop-up-right .card-message:first-child h3, .course .box-center .info-phone .pop-up-left .card-message:last-child h3, .course .box-center .info-phone .pop-up-left .card-message:first-child h3 {
   text-align: left;
 }
 
@@ -297,7 +297,7 @@
   position: absolute;
 }
 
-.position-relative, .tutores .tutors-down, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(2) .two, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(1) .position-image .one, .tutores .box-center .box-position-title, .tutores .box-center .box-line, .tutores, .services .box-center .title-services h2, .services, .course .box-center .info-phone, .course .box-center .box-line, .course, .header .box-header .container-figure {
+.position-relative, .tutores .tutors-down, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(2) .two, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(1) .position-image .one, .tutores .box-center .box-position-title, .tutores .box-center .box-line, .tutores, .services .box-center .title-services h2, .services, .course .box-center .info-phone, .course .box-center .box-line, .course, .header .box-header .container-figure {
   position: relative;
 }
 
@@ -305,7 +305,7 @@
   width: 100%;
 }
 
-.z-index-10, .tutores .tutors-down, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(2) .two, .tutores .box-center .box-position-title i img, .tutores .box-center .box-position-title h2, .services .box-center .title-services h2, .card-header {
+.z-index-10, .tutores .tutors-down, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(2) .two, .tutores .box-center .box-position-title i img, .tutores .box-center .box-position-title h2, .services .box-center .title-services h2, .card-header {
   z-index: 10;
 }
 
@@ -362,13 +362,13 @@
   padding: 15px 30px;
 }
 
-.text-card-message h3, .tutores .tutors-down .box-tutor .card-message h3, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(3) .card-message h3, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(2) .card-message h3, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(1) .card-message h3, .course .box-center .info-phone .pop-up-right .card-message:last-child h3, .course .box-center .info-phone .pop-up-right .card-message:first-child h3, .course .box-center .info-phone .pop-up-left .card-message:last-child h3, .course .box-center .info-phone .pop-up-left .card-message:first-child h3 {
+.text-card-message h3, .tutores .tutors-down .box-tutor .card-message h3, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(3) .card-message h3, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(2) .card-message h3, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(1) .card-message h3, .course .box-center .info-phone .pop-up-right .card-message:last-child h3, .course .box-center .info-phone .pop-up-right .card-message:first-child h3, .course .box-center .info-phone .pop-up-left .card-message:last-child h3, .course .box-center .info-phone .pop-up-left .card-message:first-child h3 {
   color: #000000;
   font-size: 20px;
   line-height: 20px;
   width: 263px;
 }
-.text-card-message h3:last-child, .tutores .tutors-down .box-tutor .card-message h3:last-child, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(3) .card-message h3:last-child, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(2) .card-message h3:last-child, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(1) .card-message h3:last-child, .course .box-center .info-phone .pop-up-right .card-message:last-child h3:last-child, .course .box-center .info-phone .pop-up-right .card-message:first-child h3:last-child, .course .box-center .info-phone .pop-up-left .card-message:last-child h3:last-child, .course .box-center .info-phone .pop-up-left .card-message:first-child h3:last-child {
+.text-card-message h3:last-child, .tutores .tutors-down .box-tutor .card-message h3:last-child, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(3) .card-message h3:last-child, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(2) .card-message h3:last-child, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(1) .card-message h3:last-child, .course .box-center .info-phone .pop-up-right .card-message:last-child h3:last-child, .course .box-center .info-phone .pop-up-right .card-message:first-child h3:last-child, .course .box-center .info-phone .pop-up-left .card-message:last-child h3:last-child, .course .box-center .info-phone .pop-up-left .card-message:first-child h3:last-child {
   font-size: 18px;
   line-height: 20px;
 }
@@ -392,8 +392,8 @@
 .line-title {
   border-bottom: 15px solid #FF6B6B;
   height: 15px;
-  margin-left: 6rem;
-  margin-top: 1.5rem;
+  margin-left: -1rem;
+  margin-top: 1rem;
   transform: rotate(-4deg);
   width: 180px;
 }
@@ -556,12 +556,12 @@
     width: 130px;
   }
 
-  .text-card-message h3, .tutores .tutors-down .box-tutor .card-message h3, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(3) .card-message h3, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(2) .card-message h3, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(1) .card-message h3, .course .box-center .info-phone .pop-up-right .card-message:last-child h3, .course .box-center .info-phone .pop-up-right .card-message:first-child h3, .course .box-center .info-phone .pop-up-left .card-message:last-child h3, .course .box-center .info-phone .pop-up-left .card-message:first-child h3 {
+  .text-card-message h3, .tutores .tutors-down .box-tutor .card-message h3, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(3) .card-message h3, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(2) .card-message h3, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(1) .card-message h3, .course .box-center .info-phone .pop-up-right .card-message:last-child h3, .course .box-center .info-phone .pop-up-right .card-message:first-child h3, .course .box-center .info-phone .pop-up-left .card-message:last-child h3, .course .box-center .info-phone .pop-up-left .card-message:first-child h3 {
     font-size: 14px;
     line-height: 15px;
     width: 223px;
   }
-  .text-card-message h3:last-child, .tutores .tutors-down .box-tutor .card-message h3:last-child, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(3) .card-message h3:last-child, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(2) .card-message h3:last-child, .tutores .box-center .tutors-up .card-circle-tutor:nth-child(1) .card-message h3:last-child, .course .box-center .info-phone .pop-up-right .card-message:last-child h3:last-child, .course .box-center .info-phone .pop-up-right .card-message:first-child h3:last-child, .course .box-center .info-phone .pop-up-left .card-message:last-child h3:last-child, .course .box-center .info-phone .pop-up-left .card-message:first-child h3:last-child {
+  .text-card-message h3:last-child, .tutores .tutors-down .box-tutor .card-message h3:last-child, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(3) .card-message h3:last-child, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(2) .card-message h3:last-child, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(1) .card-message h3:last-child, .course .box-center .info-phone .pop-up-right .card-message:last-child h3:last-child, .course .box-center .info-phone .pop-up-right .card-message:first-child h3:last-child, .course .box-center .info-phone .pop-up-left .card-message:last-child h3:last-child, .course .box-center .info-phone .pop-up-left .card-message:first-child h3:last-child {
     font-size: 14px;
     line-height: 15px;
   }
@@ -576,7 +576,7 @@
     width: 280px;
   }
 }
-.flex, .tutores .tutors-down, .tutores .box-center .box-position-title i, .tutores .box-center .box-line, .services .box-center .info-services .boxes-services, .services .box-center .info-services, .services .box-center .title-services, .course .box-center .info-phone, .course .box-center .box-line, .header .box-header {
+.flex, .tutores .tutors-down, .tutores .box-center .tutors-flex, .tutores .box-center .box-position-title i, .tutores .box-center .box-line, .services .box-center .info-services .boxes-services, .services .box-center .info-services, .services .box-center .title-services, .course .box-center .info-phone, .course .box-center .box-line, .header .box-header {
   display: flex;
 }
 
@@ -588,7 +588,7 @@
   flex-direction: column;
 }
 
-.flex-justify-center, .tutores .tutors-down, .services .box-center .info-services .boxes-services, .services .box-center .info-services, .course .box-center .info-phone {
+.flex-justify-center, .tutores .tutors-down, .tutores .box-center .tutors-flex, .services .box-center .info-services .boxes-services, .services .box-center .info-services, .course .box-center .info-phone {
   justify-content: center;
 }
 
@@ -1188,35 +1188,35 @@
   width: 71px;
   height: 71px;
 }
-.tutores .box-center .tutors-up .card-circle-tutor:nth-child(1) .card-message {
+.tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(1) .card-message {
   margin: 13rem 0 0 -2.7rem;
   width: 270px;
 }
-.tutores .box-center .tutors-up .card-circle-tutor:nth-child(1) .position-image {
+.tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(1) .position-image {
   margin-top: 3rem;
 }
-.tutores .box-center .tutors-up .card-circle-tutor:nth-child(1) .position-image .one {
+.tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(1) .position-image .one {
   margin-bottom: -8rem;
   margin-left: -2rem;
   width: 510px;
 }
-.tutores .box-center .tutors-up .card-circle-tutor:nth-child(2) {
+.tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(2) {
   margin-top: -6rem;
 }
-.tutores .box-center .tutors-up .card-circle-tutor:nth-child(2) .card-message {
+.tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(2) .card-message {
   margin: -3rem 0 0 20rem;
   width: 270px;
   z-index: 20;
 }
-.tutores .box-center .tutors-up .card-circle-tutor:nth-child(2) .two {
+.tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(2) .two {
   height: 370px;
   width: 370px;
 }
-.tutores .box-center .tutors-up .card-circle-tutor:nth-child(3) .card-message {
+.tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(3) .card-message {
   margin: 19rem 0 0 -5rem;
   width: 270px;
 }
-.tutores .box-center .tutors-up .card-circle-tutor:nth-child(3) .three {
+.tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(3) .three {
   margin-bottom: -5rem;
 }
 .tutores .tutors-down {
@@ -1257,31 +1257,31 @@
     width: 51px;
     height: 51px;
   }
-  .tutores .box-center .tutors-up .card-circle-tutor:nth-child(1) .card-message {
+  .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(1) .card-message {
     margin: 0 0 0 0;
     width: 270px;
   }
-  .tutores .box-center .tutors-up .card-circle-tutor:nth-child(1) .position-image {
+  .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(1) .position-image {
     margin-top: 0rem;
   }
-  .tutores .box-center .tutors-up .card-circle-tutor:nth-child(1) .position-image .one {
+  .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(1) .position-image .one {
     margin-bottom: 0rem;
     margin-left: 0rem;
     width: 240px;
     height: 240px;
   }
-  .tutores .box-center .tutors-up .card-circle-tutor:nth-child(2) {
+  .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(2) {
     margin-top: 0rem;
   }
-  .tutores .box-center .tutors-up .card-circle-tutor:nth-child(2) .card-message {
+  .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(2) .card-message {
     margin: 0 0 0 0;
   }
-  .tutores .box-center .tutors-up .card-circle-tutor .card-message {
+  .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor .card-message {
     margin: 14.5rem 0 0 0 !important;
     width: 190px !important;
     z-index: 20;
   }
-  .tutores .box-center .tutors-up .card-circle-tutor img {
+  .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor img {
     width: 240px !important;
     height: 240px !important;
   }
@@ -1327,31 +1327,31 @@
     width: 51px;
     height: 51px;
   }
-  .tutores .tutors-up .card-circle-tutor:nth-child(1) .card-message {
+  .tutores .box-center .tutors-up .card-circle-tutor:nth-child(1) .card-message {
     margin: 0 0 0 0;
     width: 270px;
   }
-  .tutores .tutors-up .card-circle-tutor:nth-child(1) .position-image {
+  .tutores .box-center .tutors-up .card-circle-tutor:nth-child(1) .position-image {
     margin-top: 0rem !important;
   }
-  .tutores .tutors-up .card-circle-tutor:nth-child(1) .position-image .one {
+  .tutores .box-center .tutors-up .card-circle-tutor:nth-child(1) .position-image .one {
     margin-bottom: 0rem;
     margin-left: 0rem !important;
     width: 240px;
     height: 240px;
   }
-  .tutores .tutors-up .card-circle-tutor:nth-child(2) {
+  .tutores .box-center .tutors-up .card-circle-tutor:nth-child(2) {
     margin-top: 0rem;
   }
-  .tutores .tutors-up .card-circle-tutor:nth-child(2) .card-message {
+  .tutores .box-center .tutors-up .card-circle-tutor:nth-child(2) .card-message {
     margin: 0 0 0 0;
   }
-  .tutores .tutors-up .card-circle-tutor .card-message {
+  .tutores .box-center .tutors-up .card-circle-tutor .card-message {
     margin: 14.5rem 0 0 0 !important;
     width: 240px !important;
     z-index: 20;
   }
-  .tutores .tutors-up .card-circle-tutor img {
+  .tutores .box-center .tutors-up .card-circle-tutor img {
     width: 240px !important;
     height: 240px !important;
   }
