@@ -46,49 +46,53 @@
       }
     }
 
-    .tutors-up {
-      .card-circle-tutor:nth-child(1) {
-        .card-message {
-          @extend .text-card-message;
-          @extend .border-solid;
-          margin: 13rem 0 0 -2.7rem;
-          width: 270px;
-        }
-        .position-image {
-          margin-top: 3rem;
-          .one {
-            @extend .position-relative;
-            margin-bottom: -8rem;
-            margin-left: -2rem;
-            width: 510px;
+    .tutors-flex {
+      @extend .flex;
+      @extend .flex-justify-center;
+      .tutors-up {
+        .card-circle-tutor:nth-child(1) {
+          .card-message {
+            @extend .text-card-message;
+            @extend .border-solid;
+            margin: 13rem 0 0 -2.7rem;
+            width: 270px;
+          }
+          .position-image {
+            margin-top: 3rem;
+            .one {
+              @extend .position-relative;
+              margin-bottom: -8rem;
+              margin-left: -2rem;
+              width: 510px;
+            }
           }
         }
-      }
-      .card-circle-tutor:nth-child(2) {
-        margin-top: -6rem;
-        .card-message {
-          @extend .border-solid;
-          @extend .text-card-message;
-          margin: -3rem 0 0 20rem;
-          width: 270px;
-          z-index: 20;
+        .card-circle-tutor:nth-child(2) {
+          margin-top: -6rem;
+          .card-message {
+            @extend .border-solid;
+            @extend .text-card-message;
+            margin: -3rem 0 0 20rem;
+            width: 270px;
+            z-index: 20;
+          }
+          .two {
+            @extend .position-relative;
+            @extend .z-index-10;
+            height: 370px;
+            width: 370px;
+          }
         }
-        .two {
-          @extend .position-relative;
-          @extend .z-index-10;
-          height: 370px;
-          width: 370px;
-        }
-      }
-      .card-circle-tutor:nth-child(3) {
-        .card-message {
-          @extend .border-solid;
-          @extend .text-card-message;
-          margin: 19rem 0 0 -5rem;
-          width: 270px;
-        }
-        .three {
-          margin-bottom: -5rem;
+        .card-circle-tutor:nth-child(3) {
+          .card-message {
+            @extend .border-solid;
+            @extend .text-card-message;
+            margin: 19rem 0 0 -5rem;
+            width: 270px;
+          }
+          .three {
+            margin-bottom: -5rem;
+          }
         }
       }
     }
@@ -125,6 +129,7 @@
       padding: 10rem 0 2rem 0;
       height: 180vh;
       margin-top: 17rem;
+
       .box-position-title {
         width: 290px;
         height: 20px;
@@ -142,37 +147,39 @@
         }
       }
 
-      .tutors-up {
-        .card-circle-tutor:nth-child(1) {
-          .card-message {
-            margin: 0 0 0 0;
-            width: 270px;
-          }
-          .position-image {
-            margin-top: 0rem;
-            .one {
-              margin-bottom: 0rem;
-              margin-left: 0rem;
-              width: 240px;
-              height: 240px;
+      .tutors-flex {
+        .tutors-up {
+          .card-circle-tutor:nth-child(1) {
+            .card-message {
+              margin: 0 0 0 0;
+              width: 270px;
+            }
+            .position-image {
+              margin-top: 0rem;
+              .one {
+                margin-bottom: 0rem;
+                margin-left: 0rem;
+                width: 240px;
+                height: 240px;
+              }
             }
           }
-        }
-        .card-circle-tutor:nth-child(2) {
-          margin-top: 0rem;
-          .card-message {
-            margin: 0 0 0 0;
+          .card-circle-tutor:nth-child(2) {
+            margin-top: 0rem;
+            .card-message {
+              margin: 0 0 0 0;
+            }
           }
-        }
-        .card-circle-tutor {
-          .card-message {
-            margin: 14.5rem 0 0 0 !important;
-            width: 190px !important;
-            z-index: 20;
-          }
-          img {
-            width: 240px !important;
-            height: 240px !important;
+          .card-circle-tutor {
+            .card-message {
+              margin: 14.5rem 0 0 0 !important;
+              width: 190px !important;
+              z-index: 20;
+            }
+            img {
+              width: 240px !important;
+              height: 240px !important;
+            }
           }
         }
       }
@@ -205,13 +212,13 @@
       height: 100vh;
     }
   }
-
 }
 
 @media (min-width: 821px) and (max-width: 1380px) {
   .tutores {
     .box-center {
       height: 90vh;
+
       .box-position-title {
         width: 450px;
         height: 20px;
@@ -228,39 +235,39 @@
           }
         }
       }
-    }
 
-    .tutors-up {
-      .card-circle-tutor:nth-child(1) {
-        .card-message {
-          margin: 0 0 0 0;
-          width: 270px;
-        }
-        .position-image {
-          margin-top: 0rem !important;
-          .one {
-            margin-bottom: 0rem;
-            margin-left: 0rem !important;
-            width: 240px;
-            height: 240px;
+      .tutors-up {
+        .card-circle-tutor:nth-child(1) {
+          .card-message {
+            margin: 0 0 0 0;
+            width: 270px;
+          }
+          .position-image {
+            margin-top: 0rem !important;
+            .one {
+              margin-bottom: 0rem;
+              margin-left: 0rem !important;
+              width: 240px;
+              height: 240px;
+            }
           }
         }
-      }
-      .card-circle-tutor:nth-child(2) {
-        margin-top: 0rem;
-        .card-message {
-          margin: 0 0 0 0;
+        .card-circle-tutor:nth-child(2) {
+          margin-top: 0rem;
+          .card-message {
+            margin: 0 0 0 0;
+          }
         }
-      }
-      .card-circle-tutor {
-        .card-message {
-          margin: 14.5rem 0 0 0 !important;
-          width: 240px !important;
-          z-index: 20;
-        }
-        img {
-          width: 240px !important;
-          height: 240px !important;
+        .card-circle-tutor {
+          .card-message {
+            margin: 14.5rem 0 0 0 !important;
+            width: 240px !important;
+            z-index: 20;
+          }
+          img {
+            width: 240px !important;
+            height: 240px !important;
+          }
         }
       }
     }
@@ -278,6 +285,7 @@
   .tutores {
     .box-center {
       height: 130vh;
+
       .box-position-title {
         width: 500px;
         height: 60px;
