@@ -76,14 +76,22 @@
               @extend .hvr-wobble-vertical;
               @extend .z-shadow;
               background: $white-light;
+              color: $black-light;
               border-radius: 2rem;
               margin-top: 15px;
               padding: 10px 0px;
               opacity: 0.6;
+              text-decoration: none;
               width: 170px;
+              &:visited {
+                color: $black-light;
+              }
+              &:active {
+                color: $black-light
+              }
               &:hover {
                 background-color: red;
-                color: $white;
+                color: $white !important;
               }
             }
           }
