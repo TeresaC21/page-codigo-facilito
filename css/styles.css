@@ -930,15 +930,23 @@
 }
 .header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure {
   background: rgba(255, 255, 255, 0.75);
+  color: rgba(0, 0, 0, 0.75);
   border-radius: 2rem;
   margin-top: 15px;
   padding: 10px 0px;
   opacity: 0.6;
+  text-decoration: none;
   width: 170px;
+}
+.header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure:visited {
+  color: rgba(0, 0, 0, 0.75);
+}
+.header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure:active {
+  color: rgba(0, 0, 0, 0.75);
 }
 .header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure:hover {
   background-color: red;
-  color: #fff;
+  color: #fff !important;
 }
 .header .box-header .container-figure .move-box .card-circle-header .pop-up .card-message {
   margin: 1.5rem 0 0 -14rem;
