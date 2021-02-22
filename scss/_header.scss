@@ -73,14 +73,16 @@
             .btn-figure {
               @extend .font-small;
               @extend .no-border;
-              @extend .hvr-wobble-vertical;
+              @extend .hvr-bob;
+              @extend .position-relative;
+              @extend .z-index-40;
               @extend .z-shadow;
               background: $white-light;
               color: $black-light;
               border-radius: 2rem;
               margin-top: 15px;
-              padding: 10px 0px;
               opacity: 0.6;
+              padding: 10px 0px;
               text-decoration: none;
               width: 170px;
               &:visited {
@@ -92,6 +94,10 @@
               &:hover {
                 background-color: red;
                 color: $white !important;
+              }
+              & {
+                transition: color 0.8s linear 0.2s;
+                transition: background-color 0.8s linear 0.2s;
               }
             }
           }
@@ -120,6 +126,7 @@
               height: 340px;
               margin-top: -67px;
               width: 360px;
+              
             }
           }
         }
