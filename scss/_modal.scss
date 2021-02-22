@@ -1,0 +1,94 @@
+.modal-section {
+  .btn-center {
+    @extend .flex;
+    @extend .flex-justify-center;
+    margin-top: 3rem;
+    .btn-figure {
+      @extend .font-small;
+      @extend .hvr-bob;
+      @extend .z-shadow;
+      background: $white-light;
+      border-color: #3572d8;
+      border-radius: 2rem;
+      color: #3572d8;
+      margin-top: 15px;
+      opacity: 0.6;
+      padding: 10px 0px;
+      text-align: center;
+      width: 170px;
+      &:hover {
+        background-color: red;
+        border-color: $black-light;
+        color: $white !important;
+      }
+      & {
+        transition: color 0.8s linear 0.2s;
+        transition: background-color 0.8s linear 0.2s;
+      }
+    }
+  }
+
+  .modal-container {
+    @extend .flex;
+    @extend .flex-align-center;
+    @extend .flex-justify-center;
+    @extend .height-full;
+    @extend .position-fixed;
+    @extend .width-full;
+    @extend .z-index-full;
+    background-color: rgba(0, 0, 0, 0.7);
+    left: 0;
+    opacity: 0;
+    top: 0;
+    visibility: hidden;
+    .modal {
+      @extend .position-relative;
+      background-color: $white-leve;
+      border-radius: 15px;
+      height: 60%;
+      overflow: hidden;
+      transition: transform 0.7s;
+      transform: translateY(0%);
+      width: 60%;
+      i {
+        @extend .border-circle;
+        @extend .font-size-18;
+        @extend .inline-block;
+        @extend .text-align-center;
+        color: $white-leve;
+        cursor: pointer;
+        background-color: $red-cora;
+        margin: 10px 7px;
+        padding: 5px 10px;
+      }
+      .modal-center {
+        @extend .flex;
+        @extend .flex-align-center;
+        @extend .flex-direction-column;
+        img {
+          width: 350px;
+        }
+        a {
+          background-color: rgba(0, 0, 0, 0.4);
+          border-radius: 1rem;
+          border: 2px solid $white-leve;
+          color: $white-light !important;
+          cursor: pointer;
+          padding: 5px;
+          text-align: center;
+          text-decoration: none;
+          width: 200px;
+          &:hover {
+            background-color: $pink;
+            color: $white !important;
+            opacity: 0.5;
+          }
+          & {
+            transition: color 0.8s linear 0.2s;
+            transition: background-color 0.8s linear 0.2s;
+          }
+        }
+      }
+    }
+  }
+}
