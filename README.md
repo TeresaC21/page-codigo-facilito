@@ -10,7 +10,7 @@ Colaboración y reto junto a [Código Fácilito](https://codigofacilito.com/) Pr
 - [Inicialización de proyecto](#iniciación-de-proyecto)
 - [Estructura del proyecto](#estructura-del-proyecto)
 - [Sobre el proyecto](#sobre-el-proyecto)
-- [Interacción e integración de eventos](#Interaccion-e-integracion-de-eventos)
+- [Integración DOM e interacciones](#interaccion-dom-e-interacciones)
 - [Recomendaciones](#recomendaciones)
 
 ## Documentación 
@@ -116,10 +116,10 @@ Dar un aspecto un tanto sutíl, limpio pero llamativo con animaciones en algunos
 ![Alt Estructura de proyecto](https://github.com/TeresaC21/page-codigo-facilito/blob/master/images_readme/phone.JPEG)
 
 
-## Integración de eventos e interacción 
+## Integración DOM e interacciones
 :zap:
 
-Se integra en el proyecto interactividad con funcionalidad javascript dando un toque con las animaciones y estilos. Algunos ejemplos visualmente en código.
+Se integra en el proyecto interactividad con funcionalidad JavaScript dando así algunas animaciones y estilos también manipulando en el DOM. Algunos ejemplos visualmente en código.
 
 -  Spinner, desde la creación de 0 de un diseño en CSS y carga de archivos con la experiencia de un diseño animado, el cual se ejecuta el evento onload de JavaScript, lo que nos permite que la carga de archivos sea completado en segundos y nos permite manipular en el DOM para mostrar y ocultar cuando es cargada por completo.
 
