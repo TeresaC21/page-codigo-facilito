@@ -121,7 +121,7 @@ Dar un aspecto un tanto sutíl, limpio pero llamativo con animaciones en algunos
 
 Se integra en el proyecto interactividad con funcionalidad JavaScript dando así algunas animaciones y estilos también manipulando en el DOM. Algunos ejemplos visualmente en código.
 
--  Spinner, desde la creación de 0 de un diseño en CSS y carga de archivos con la experiencia de un diseño animado, el cual se ejecuta el evento onload de JavaScript, lo que nos permite que la carga de archivos sea completado en segundos y nos permite manipular en el DOM para mostrar y ocultar cuando es cargada por completo.
+-  Spinner, creación de diseño en CSS y carga de archivos con la experiencia de un diseño animado, el cual se ejecuta el evento onload de JavaScript, lo que nos permite que la carga de archivos sea completado en segundos y nos permite manipular en el DOM para mostrar y ocultar cuando es cargada por completo.
 
 Una parte como ejemplo de los archivos:
 
