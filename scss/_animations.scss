@@ -26,10 +26,10 @@
 }
 .hvr-bob {
   display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-transform: perspective(1px) translateZ(0);
+  vertical-align: middle;
 }
 .hvr-bob:hover, .hvr-bob:focus, .hvr-bob:active {
   -webkit-animation-name: hvr-bob-float, hvr-bob;
@@ -102,10 +102,10 @@
   }
   .hvr-wobble-vertical {
     display: inline-block;
-    vertical-align: middle;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    vertical-align: middle;
   }
   .hvr-wobble-vertical:hover, .hvr-wobble-vertical:focus, .hvr-wobble-vertical:active {
     -webkit-animation-name: hvr-wobble-vertical;
@@ -145,6 +145,7 @@
       transform: translate(0, 0);
     }
   }
+
   @keyframes hvr-wobble-to-top-right {
     16.65% {
       -webkit-transform: translate(8px, -8px);
@@ -173,10 +174,10 @@
   }
   .hvr-wobble-to-top-right {
     display: inline-block;
-    vertical-align: middle;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
     -webkit-transform: perspective(1px) translateZ(0);
     transform: perspective(1px) translateZ(0);
-    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    vertical-align: middle;
   }
   .hvr-wobble-to-top-right:hover, .hvr-wobble-to-top-right:focus, .hvr-wobble-to-top-right:active {
     -webkit-animation-name: hvr-wobble-to-top-right;
@@ -188,3 +189,87 @@
     -webkit-animation-iteration-count: 1;
     animation-iteration-count: 1;
   }
+
+/* ANIMATION ENTER LEFT TO RIGHT */
+.transition-left-to-right {
+  left: 150px;
+  right: 150px;
+  -webkit-transtition: left .3s ease-in-out, right .3s ease-in-out;
+  transition: left .3s ease-in-out, right .3s ease-in-out;
+}
+
+.move-left-to-right {
+  @extend .position-relative;
+  animation: ease-out;
+  animation-duration: 2s; 
+  animation-name: fromLeft;
+}
+@keyframes fromLeft {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 100%;
+  }
+  100% {
+    left: 0;    
+  }
+}
+
+.move-right-to-left {
+  @extend .position-relative;
+  animation: ease-out;
+  animation-duration: 2s;
+  animation-name: fromRight;
+}
+
+@keyframes fromRight {
+  0% {
+    left: 170%;
+  }
+  25% {
+    left: 100%;
+  }
+  50% {
+    left: 75%;
+  }
+  75% {
+    left: 50%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+
+/* ANIMATION ROTATE */
+.turn-animation {
+  animation: turn 1.5s linear infinite;
+}
+
+@keyframes turn {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+/* Durations */
+
+.time-2 {
+  animation-duration: 2s;
+}
+
+.time-3 {
+  animation-duration: 3s;
+}
+
+.time-4 {
+  animation-duration: 4s;
+}
+
+.time-5 {
+  animation-duration: 5s;
+}
