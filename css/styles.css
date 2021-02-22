@@ -24,15 +24,15 @@
     transform: translateY(-8px);
   }
 }
-.hvr-bob, .card-message {
+.hvr-bob, .header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure, .card-message {
   display: inline-block;
-  vertical-align: middle;
-  -webkit-transform: perspective(1px) translateZ(0);
-  transform: perspective(1px) translateZ(0);
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  transform: perspective(1px) translateZ(0);
+  -webkit-transform: perspective(1px) translateZ(0);
+  vertical-align: middle;
 }
 
-.hvr-bob:hover, .card-message:hover, .hvr-bob:focus, .card-message:focus, .hvr-bob:active, .card-message:active {
+.hvr-bob:hover, .header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure:hover, .card-message:hover, .hvr-bob:focus, .header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure:focus, .card-message:focus, .hvr-bob:active, .header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure:active, .card-message:active {
   -webkit-animation-name: hvr-bob-float, hvr-bob;
   animation-name: hvr-bob-float, hvr-bob;
   -webkit-animation-duration: 0.3s, 1.5s;
@@ -101,15 +101,15 @@
     transform: translateY(0);
   }
 }
-.hvr-wobble-vertical, .tutores .box-center .box-position-title i img, .course .box-center .info-phone img, .header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure {
+.hvr-wobble-vertical, .tutores .box-center .box-position-title i img, .course .box-center .info-phone img {
   display: inline-block;
-  vertical-align: middle;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  vertical-align: middle;
 }
 
-.hvr-wobble-vertical:hover, .tutores .box-center .box-position-title i img:hover, .course .box-center .info-phone img:hover, .header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure:hover, .hvr-wobble-vertical:focus, .tutores .box-center .box-position-title i img:focus, .course .box-center .info-phone img:focus, .header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure:focus, .hvr-wobble-vertical:active, .tutores .box-center .box-position-title i img:active, .course .box-center .info-phone img:active, .header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure:active {
+.hvr-wobble-vertical:hover, .tutores .box-center .box-position-title i img:hover, .course .box-center .info-phone img:hover, .hvr-wobble-vertical:focus, .tutores .box-center .box-position-title i img:focus, .course .box-center .info-phone img:focus, .hvr-wobble-vertical:active, .tutores .box-center .box-position-title i img:active, .course .box-center .info-phone img:active {
   -webkit-animation-name: hvr-wobble-vertical;
   animation-name: hvr-wobble-vertical;
   -webkit-animation-duration: 1s;
@@ -175,10 +175,10 @@
 }
 .hvr-wobble-to-top-right {
   display: inline-block;
-  vertical-align: middle;
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   -webkit-transform: perspective(1px) translateZ(0);
   transform: perspective(1px) translateZ(0);
-  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  vertical-align: middle;
 }
 
 .hvr-wobble-to-top-right:hover, .hvr-wobble-to-top-right:focus, .hvr-wobble-to-top-right:active {
@@ -190,6 +190,84 @@
   animation-timing-function: ease-in-out;
   -webkit-animation-iteration-count: 1;
   animation-iteration-count: 1;
+}
+
+/* ANIMATION ENTER LEFT TO RIGHT */
+.transition-left-to-right {
+  left: 150px;
+  right: 150px;
+  -webkit-transtition: left 0.3s ease-in-out, right 0.3s ease-in-out;
+  transition: left 0.3s ease-in-out, right 0.3s ease-in-out;
+}
+
+.move-left-to-right {
+  animation: ease-out;
+  animation-duration: 2s;
+  animation-name: fromLeft;
+}
+
+@keyframes fromLeft {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: 100%;
+  }
+  100% {
+    left: 0;
+  }
+}
+.move-right-to-left {
+  animation: ease-out;
+  animation-duration: 2s;
+  animation-name: fromRight;
+}
+
+@keyframes fromRight {
+  0% {
+    left: 170%;
+  }
+  25% {
+    left: 100%;
+  }
+  50% {
+    left: 75%;
+  }
+  75% {
+    left: 50%;
+  }
+  100% {
+    left: 0;
+  }
+}
+/* ANIMATION ROTATE */
+.turn-animation, #container-spinner #spinner {
+  animation: turn 1.5s linear infinite;
+}
+
+@keyframes turn {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+/* Durations */
+.time-2 {
+  animation-duration: 2s;
+}
+
+.time-3 {
+  animation-duration: 3s;
+}
+
+.time-4 {
+  animation-duration: 4s;
+}
+
+.time-5 {
+  animation-duration: 5s;
 }
 
 .border-solid, .tutores .tutors-down .box-tutor .card-message, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(3) .card-message, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(2) .card-message, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(1) .card-message {
@@ -241,7 +319,7 @@
   font-weight: 400;
 }
 
-.height-full {
+.height-full, #container-spinner {
   height: 100vh;
 }
 
@@ -293,20 +371,28 @@
   float: right;
 }
 
-.position-absolute, .course .box-center, .header .box-header .container-figure .move-box, .card-message {
+.position-absolute, #container-spinner #spinner, .course .box-center, .header .box-header .container-figure .move-box, .card-message {
   position: absolute;
 }
 
-.position-relative, .tutores .tutors-down, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(2) .two, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(1) .position-image .one, .tutores .box-center .box-position-title, .tutores .box-center .box-line, .tutores, .services .box-center .title-services h2, .services, .course .box-center .info-phone, .course .box-center .box-line, .course, .header .box-header .container-figure {
+.position-fixed, #container-spinner {
+  position: fixed;
+}
+
+.position-relative, .tutores .tutors-down, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(2) .two, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(1) .position-image .one, .tutores .box-center .box-position-title, .tutores .box-center .box-line, .tutores, .services .box-center .title-services h2, .services, .course .box-center .info-phone, .course .box-center .box-line, .course, .header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure, .header .box-header .container-figure, .move-left-to-right, .move-right-to-left {
   position: relative;
 }
 
-.width-full, .tutores .box-center, .services .box-center .info-services, .services .box-center, .course .box-center .info-phone, .course .box-center, .header .box-header .container-figure .move-box .card-circle-header .pop-up, .header .box-header .container-figure, .header, .line-tutors {
+.width-full, #container-spinner, .tutores .box-center, .services .box-center .info-services, .services .box-center, .course .box-center .info-phone, .course .box-center, .header .box-header .container-figure .move-box .card-circle-header .pop-up, .header .box-header .container-figure, .header, .line-tutors {
   width: 100%;
 }
 
 .z-index-10, .tutores .tutors-down, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(2) .two, .tutores .box-center .box-position-title i img, .tutores .box-center .box-position-title h2, .services .box-center .title-services h2, .card-header {
   z-index: 10;
+}
+
+.z-index-40, .header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure {
+  z-index: 40;
 }
 
 .z-shadow, .header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure, .card-message {
@@ -933,8 +1019,8 @@
   color: rgba(0, 0, 0, 0.75);
   border-radius: 2rem;
   margin-top: 15px;
-  padding: 10px 0px;
   opacity: 0.6;
+  padding: 10px 0px;
   text-decoration: none;
   width: 170px;
 }
@@ -947,6 +1033,10 @@
 .header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure:hover {
   background-color: red;
   color: #fff !important;
+}
+.header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure {
+  transition: color 0.8s linear 0.2s;
+  transition: background-color 0.8s linear 0.2s;
 }
 .header .box-header .container-figure .move-box .card-circle-header .pop-up .card-message {
   margin: 1.5rem 0 0 -14rem;
@@ -1173,7 +1263,6 @@
   margin: 20rem 0 10rem 0;
 }
 .tutores .box-center {
-  /*  @extend .position-absolute; */
   background: #e5e5e5;
   clip-path: polygon(0 5%, 100% 0, 100% 90%, 0 100%);
   height: 90vh;
@@ -1392,6 +1481,25 @@
     margin-top: -5rem !important;
   }
 }
+#container-spinner {
+  background-color: rgba(0, 0, 0, 0.76);
+  transition: background-color 5s ease;
+  z-index: 1000;
+}
+#container-spinner #spinner {
+  border: 15px solid #ddd;
+  border-radius: 50%;
+  border-style: groove;
+  border-top-color: #FF6B6B;
+  bottom: 0;
+  left: 0;
+  height: 100px;
+  margin: auto;
+  right: 0;
+  top: 0;
+  width: 100px;
+}
+
 html, body {
   margin: 0;
   padding: 0;

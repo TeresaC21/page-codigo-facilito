@@ -14,6 +14,9 @@
 </head>
 
 <body>
+    <div id="container-spinner">
+        <div id="spinner"></div>
+    </div>
     <header class="header">
         <div class="row">
             <div class="col-12 box-header">
@@ -46,7 +49,7 @@
                                             en el checkout
                                         </h3>
                                     </div>
-                                    <img class="love-img" src="./img/love.png" alt="Regala algo muy especial" />
+                                    <img class="love-img" id="moveImage" src="./img/love.png" alt="Regala algo muy especial" />
                                 </div>
                             </div>
 
@@ -67,27 +70,27 @@
                     </div>
                     <h2>AL PRECIO DE 1</h2>
                 </div>
-                <div class="row info-services">
-                    <div class="boxes-services">
+                <div class="row info-services" id="moveScroll">
+                    <div class="boxes-services cards-2">
                         <img class="icons-box" src="./icons/target.png" alt="Tarjeta precio especial">
                         <h2>Precio Especial</h2>
                         <h3>Ahorra +60% sobre el precio
                             original de 36USD por 3 meses</h3>
                     </div>
 
-                    <div class="boxes-services">
+                    <div class="boxes-services cards-3">
                         <img class="icons-box" src="./icons/books.png" alt="Libros acceso ilimitado">
                         <h2>Acceso ilimitado</h2>
                         <h3>Accede a todo el contenido
                             disponible, +150 cursos</h3>
                     </div>
-                    <div class="boxes-services">
+                    <div class="boxes-services cards-4">
                         <img class="icons-box" src="./icons/video-call.png" alt="Clases en vivo">
                         <h2>Clases en vivo</h2>
                         <h3>Dos clases semanales y
                             grabaciones disponibles</h3>
                     </div>
-                    <div class="boxes-services">
+                    <div class="boxes-services cards-5">
                         <img class="icons-box" src="./icons/star.png" alt="Estrella tutores calificados">
                         <h2>Tutores calificados</h2>
                         <h3>+93% de evaluaciones positivas</h3>
@@ -124,7 +127,7 @@
                         </div>
                     </div>
 
-                    <img src="./img/phone-curso.png" alt="Tutor en video curso">
+                    <img src="./img/phone-curso.png" id="movePhone" alt="Tutor en video curso">
 
                     <div class="pop-up-right">
                         <div class="card-message">
@@ -247,6 +250,9 @@
         </section>
     </main>
 
+  
+
+    <script src="index.js"></script>
 </body>
 
 </html>
