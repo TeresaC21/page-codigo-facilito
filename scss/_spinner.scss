@@ -1,0 +1,23 @@
+#container-spinner {
+    @extend .height-full;
+    @extend .width-full;
+    @extend .position-fixed;
+    background-color: rgba(0, 0, 0, 0.76);
+     transition: background-color 5s ease; 
+    z-index: 1000;
+    #spinner {
+        @extend .position-absolute;
+        @extend .turn-animation;
+        border: 15px solid #ddd;
+        border-radius: 50%;
+        border-style: groove;
+        border-top-color: $pink;
+        bottom: 0;
+        left: 0;
+        height: 100px;
+        margin: auto;
+        right: 0;
+        top: 0;
+        width: 100px;
+    }
+}
