@@ -24,7 +24,7 @@
     transform: translateY(-8px);
   }
 }
-.hvr-bob, .header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure, .card-message {
+.hvr-bob, .modal-section .btn-center .btn-figure, .header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure, .card-message {
   display: inline-block;
   box-shadow: 0 0 1px rgba(0, 0, 0, 0);
   transform: perspective(1px) translateZ(0);
@@ -32,7 +32,7 @@
   vertical-align: middle;
 }
 
-.hvr-bob:hover, .header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure:hover, .card-message:hover, .hvr-bob:focus, .header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure:focus, .card-message:focus, .hvr-bob:active, .header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure:active, .card-message:active {
+.hvr-bob:hover, .modal-section .btn-center .btn-figure:hover, .header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure:hover, .card-message:hover, .hvr-bob:focus, .modal-section .btn-center .btn-figure:focus, .header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure:focus, .card-message:focus, .hvr-bob:active, .modal-section .btn-center .btn-figure:active, .header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure:active, .card-message:active {
   -webkit-animation-name: hvr-bob-float, hvr-bob;
   animation-name: hvr-bob-float, hvr-bob;
   -webkit-animation-duration: 0.3s, 1.5s;
@@ -270,11 +270,15 @@
   animation-duration: 5s;
 }
 
+.modal-closed {
+  transform: translateY(-200%);
+}
+
 .border-solid, .tutores .tutors-down .box-tutor .card-message, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(3) .card-message, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(2) .card-message, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(1) .card-message {
   border: 1px solid rgba(0, 0, 0, 0.75);
 }
 
-.border-circle, .card-circle-tutor, .card-circle, .card-circle-header {
+.border-circle, .modal-section .modal-container .modal i, .card-circle-tutor, .card-circle, .card-circle-header {
   border-radius: 50%;
 }
 
@@ -303,8 +307,12 @@
   font-size: 60px;
 }
 
-.font-small, .services .box-center .info-services .boxes-services h2, .header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure, .header .box-header .container-figure .move-box .card-circle-header .card-header .title-figure, .header .box-header .header-title span {
+.font-small, .modal-section .btn-center .btn-figure, .services .box-center .info-services .boxes-services h2, .header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure, .header .box-header .container-figure .move-box .card-circle-header .card-header .title-figure, .header .box-header .header-title span {
   font-size: 24px;
+}
+
+.font-size-18, .modal-section .modal-container .modal i {
+  font-size: 18px;
 }
 
 .font-smaller {
@@ -319,11 +327,11 @@
   font-weight: 400;
 }
 
-.height-full, #container-spinner {
+.height-full, #container-spinner, .modal-section .modal-container {
   height: 100vh;
 }
 
-.inline-block, .header .box-header .container-figure .move-box .card-circle-header .pop-up .love-img, .header .box-header .container-figure .move-box .card-circle-header .card-header .number-figure, .box-cards, .card-message, .card-circle-tutor, .card-circle {
+.inline-block, .modal-section .modal-container .modal i, .header .box-header .container-figure .move-box .card-circle-header .pop-up .love-img, .header .box-header .container-figure .move-box .card-circle-header .card-header .number-figure, .box-cards, .card-message, .card-circle-tutor, .card-circle {
   display: inline-block;
 }
 
@@ -343,7 +351,7 @@
   border: none;
 }
 
-.text-align-center, .header .box-header .header-title, .card-header {
+.text-align-center, .modal-section .modal-container .modal i, .header .box-header .header-title, .card-header {
   text-align: center;
 }
 
@@ -375,15 +383,15 @@
   position: absolute;
 }
 
-.position-fixed, #container-spinner {
+.position-fixed, #container-spinner, .modal-section .modal-container {
   position: fixed;
 }
 
-.position-relative, .tutores .tutors-down, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(2) .two, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(1) .position-image .one, .tutores .box-center .box-position-title, .tutores .box-center .box-line, .tutores, .services .box-center .title-services h2, .services, .course .box-center .info-phone, .course .box-center .box-line, .course, .header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure, .header .box-header .container-figure, .move-left-to-right, .move-right-to-left {
+.position-relative, .modal-section .modal-container .modal, .tutores .tutors-down, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(2) .two, .tutores .box-center .tutors-flex .tutors-up .card-circle-tutor:nth-child(1) .position-image .one, .tutores .box-center .box-position-title, .tutores .box-center .box-line, .tutores, .services .box-center .title-services h2, .services, .course .box-center .info-phone, .course .box-center .box-line, .course, .header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure, .header .box-header .container-figure, .move-left-to-right, .move-right-to-left {
   position: relative;
 }
 
-.width-full, #container-spinner, .tutores .box-center, .services .box-center .info-services, .services .box-center, .course .box-center .info-phone, .course .box-center, .header .box-header .container-figure .move-box .card-circle-header .pop-up, .header .box-header .container-figure, .header, .line-tutors {
+.width-full, #container-spinner, .modal-section .modal-container, .tutores .box-center, .services .box-center .info-services, .services .box-center, .course .box-center .info-phone, .course .box-center, .header .box-header .container-figure .move-box .card-circle-header .pop-up, .header .box-header .container-figure, .header, .line-tutors {
   width: 100%;
 }
 
@@ -395,7 +403,11 @@
   z-index: 40;
 }
 
-.z-shadow, .header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure, .card-message {
+.z-index-full, .modal-section .modal-container {
+  z-index: 1000;
+}
+
+.z-shadow, .modal-section .btn-center .btn-figure, .header .box-header .container-figure .move-box .card-circle-header .card-header .btn-figure, .card-message {
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.15), 0 2px 7px 0 rgba(0, 0, 0, 0.1);
 }
 
@@ -662,19 +674,19 @@
     width: 280px;
   }
 }
-.flex, .tutores .tutors-down, .tutores .box-center .tutors-flex, .tutores .box-center .box-position-title i, .tutores .box-center .box-line, .services .box-center .info-services .boxes-services, .services .box-center .info-services, .services .box-center .title-services, .course .box-center .info-phone, .course .box-center .box-line, .header .box-header {
+.flex, .modal-section .modal-container .modal .modal-center, .modal-section .modal-container, .modal-section .btn-center, .tutores .tutors-down, .tutores .box-center .tutors-flex, .tutores .box-center .box-position-title i, .tutores .box-center .box-line, .services .box-center .info-services .boxes-services, .services .box-center .info-services, .services .box-center .title-services, .course .box-center .info-phone, .course .box-center .box-line, .header .box-header {
   display: flex;
 }
 
-.flex-align-center, .tutores .box-center .box-line, .services .box-center .info-services .boxes-services, .services .box-center .title-services, .course .box-center .box-line, .header .box-header {
+.flex-align-center, .modal-section .modal-container .modal .modal-center, .modal-section .modal-container, .tutores .box-center .box-line, .services .box-center .info-services .boxes-services, .services .box-center .title-services, .course .box-center .box-line, .header .box-header {
   align-items: center;
 }
 
-.flex-direction-column, .tutores .box-center .box-line, .services .box-center .info-services .boxes-services, .services .box-center .title-services, .course .box-center .box-line, .header .box-header {
+.flex-direction-column, .modal-section .modal-container .modal .modal-center, .tutores .box-center .box-line, .services .box-center .info-services .boxes-services, .services .box-center .title-services, .course .box-center .box-line, .header .box-header {
   flex-direction: column;
 }
 
-.flex-justify-center, .tutores .tutors-down, .tutores .box-center .tutors-flex, .services .box-center .info-services .boxes-services, .services .box-center .info-services, .course .box-center .info-phone {
+.flex-justify-center, .modal-section .modal-container, .modal-section .btn-center, .tutores .tutors-down, .tutores .box-center .tutors-flex, .services .box-center .info-services .boxes-services, .services .box-center .info-services, .course .box-center .info-phone {
   justify-content: center;
 }
 
@@ -1481,6 +1493,76 @@
     margin-top: -5rem !important;
   }
 }
+.modal-section .btn-center {
+  margin-top: 3rem;
+}
+.modal-section .btn-center .btn-figure {
+  background: rgba(255, 255, 255, 0.75);
+  border-color: #3572d8;
+  border-radius: 2rem;
+  color: #3572d8;
+  margin-top: 15px;
+  opacity: 0.6;
+  padding: 10px 0px;
+  text-align: center;
+  width: 170px;
+}
+.modal-section .btn-center .btn-figure:hover {
+  background-color: red;
+  border-color: rgba(0, 0, 0, 0.75);
+  color: #fff !important;
+}
+.modal-section .btn-center .btn-figure {
+  transition: color 0.8s linear 0.2s;
+  transition: background-color 0.8s linear 0.2s;
+}
+.modal-section .modal-container {
+  background-color: rgba(0, 0, 0, 0.7);
+  left: 0;
+  opacity: 0;
+  top: 0;
+  visibility: hidden;
+}
+.modal-section .modal-container .modal {
+  background-color: #e5e5e5;
+  border-radius: 15px;
+  height: 60%;
+  overflow: hidden;
+  transition: transform 0.7s;
+  transform: translateY(0%);
+  width: 60%;
+}
+.modal-section .modal-container .modal i {
+  color: #e5e5e5;
+  cursor: pointer;
+  background-color: #e94a47;
+  margin: 10px 7px;
+  padding: 5px 10px;
+}
+.modal-section .modal-container .modal .modal-center img {
+  width: 350px;
+}
+.modal-section .modal-container .modal .modal-center a {
+  background-color: rgba(0, 0, 0, 0.4);
+  border-radius: 1rem;
+  border: 2px solid #e5e5e5;
+  color: rgba(255, 255, 255, 0.75) !important;
+  cursor: pointer;
+  padding: 5px;
+  text-align: center;
+  text-decoration: none;
+  width: 200px;
+}
+.modal-section .modal-container .modal .modal-center a:hover {
+  background-color: #FF6B6B;
+  color: #fff !important;
+  opacity: 0.5;
+}
+.modal-section .modal-container .modal .modal-center a {
+  transition: color 0.8s linear 0.2s;
+  transition: background-color 0.8s linear 0.2s;
+}
+
 #container-spinner {
   background-color: rgba(0, 0, 0, 0.76);
   transition: background-color 5s ease;
