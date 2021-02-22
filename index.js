@@ -33,17 +33,16 @@ const isTypeTime = (number) => {
   let moveScroll = document.querySelectorAll(`.cards-${number}`);
 
   for (let i = 0; i < moveScroll.length; i++) {
-    const moveScrollI = moveScroll[i];
-
-    let calcDistanceTop = moveScrollI.getBoundingClientRect().top;
+    const moveScrollIndex = moveScroll[i];
+    let calcDistanceTop = moveScrollIndex.getBoundingClientRect().top;
     let calcScreenHeight = window.innerHeight / 1.5;
 
-    moveScrollI.classList.add(`time-${number}`);
+    moveScrollIndex.classList.add(`time-${number}`);
 
     if (calcDistanceTop <= calcScreenHeight) {
-      moveScrollI.classList.add(`move-left-to-right`);
+      moveScrollIndex.classList.add(`move-left-to-right`);
     } else {
-      moveScrollI.classList.remove(`move-left-to-right}`);
+      moveScrollIndex.classList.remove(`move-left-to-right}`);
     }
   }
 };
