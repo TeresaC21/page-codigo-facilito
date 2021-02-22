@@ -273,3 +273,7 @@
 .time-5 {
   animation-duration: 5s;
 }
+
+.modal-closed {
+  transform: translateY(-200%);
+}
