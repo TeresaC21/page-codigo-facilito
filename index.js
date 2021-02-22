@@ -16,11 +16,16 @@ window.onload = () => {
 };
 
 /* *************** ENTER RIGHT TO LEFT GIFT *************** */
-moveImage.style.visibility = "hidden";
-setTimeout(() => {
-  moveImage.style.visibility = "visible";
-  moveImage.classList.add("move-right-to-left");
-}, 2000);
+const isEnteringAnimation = () => {
+    moveImage.style.visibility = "hidden";
+    setTimeout(() => {
+        moveImage.style.visibility = "visible";
+        moveImage.classList.add("move-right-to-left");
+    }, 2000);
+}
+
+isEnteringAnimation();
+
 
 /* *************** SCROLL SECTION SERVICES *************** */
 const isTypeTime = (second) => {

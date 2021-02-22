@@ -10,6 +10,7 @@ Colaboración y reto junto a [Código Fácilito](https://codigofacilito.com/) Pr
 - [Inicialización de proyecto](#iniciación-de-proyecto)
 - [Estructura del proyecto](#estructura-del-proyecto)
 - [Sobre el proyecto](#sobre-el-proyecto)
+- [Interacción e integración de eventos](#Interaccion-e-integracion-de-eventos)
 - [Recomendaciones](#recomendaciones)
 
 ## Documentación 
@@ -114,6 +115,85 @@ Dar un aspecto un tanto sutíl, limpio pero llamativo con animaciones en algunos
 
 ![Alt Estructura de proyecto](https://github.com/TeresaC21/page-codigo-facilito/blob/master/images_readme/phone.JPEG)
 
+
+## Integración de eventos e interacción 
+:zap:
+
+Se integra en el proyecto interactividad con funcionalidad javascript dando un toque con las animaciones y estilos. Algunos ejemplos visualmente en código.
+
+-  Spinner, desde la creación de 0 de un diseño en CSS y carga de archivos con la experiencia de un diseño animado, el cual se ejecuta el evento onload de JavaScript, lo que nos permite que la carga de archivos sea completado en segundos y nos permite manipular en el DOM para mostrar y ocultar cuando es cargada por completo.
+
+Una parte como ejemplo de los archivos:
+
+[Aprender más sobre su sintaxis, ejemplos y documentación](https://developer.mozilla.org/es/docs/Web/API/GlobalEventHandlers/onload)
+
+
+```JavaScript
+let containerSpinner = document.querySelector("#container-spinner");
+
+window.onload = () => {
+  containerSpinner.style.visibility = "hidden";
+  containerSpinner.style.opacity = "0";
+};
+```
+
+```CSS
+/* _spinner.scss */
+container-spinner {
+    @extend .height-full;
+    @extend .width-full;
+    @extend .position-fixed;
+    #spinner {
+        @extend .position-absolute;
+        @extend .turn-animation;
+        border-radius: 50%;
+        border-style: groove;
+        border-top-color: $pink;
+        bottom: 0;
+        left: 0;
+    }
+}
+```
+
+- Entrada para mostrar animación con función sobre header que nos permite al manipular el DOM así como nuestros elementos HTML en JavaScript y así también poder mostrar u ocultar en dicha funcionalidad. Principalmente que nos permite establecer un lapso de tiempo que establecemos como segundo parametro de este método setTimeout de window se ejecuta en la función, y también así controlarlo mediante el maravilloso DOM.
+
+[Aprender más sobre su sintaxis, ejemplos y documentación](https://developer.mozilla.org/es/docs/Web/API/WindowTimers/setTimeout)
+
+```JavaScript
+  setTimeout(() => {
+        moveImage.style.visibility = "visible";
+        moveImage.classList.add("move-right-to-left");
+  }, 2000);
+```
+
+- Creación y manipulación de Modal, añadido un botón entre sección servicios y cursos para así indicar mediante la escucha del evento click la indicación de abrir, cerrar modal, así como sus estilos.
+
+
+[Aprender más sobre su sintaxis, ejemplos y documentación](https://developer.mozilla.org/es/docs/Web/API/EventTarget/addEventListener)
+
+
+```JavaScript
+const isOpenModal = (e) => {
+  e.preventDefault();
+
+  modalContainer.style.opacity = "1";
+  modalContainer.style.visibility = "visible";
+  modal.classList.toggle("modal-closed");
+};
+
+```
+
+- Scroll con animación en la sección de servicios, iterando, animación y estilos en cada uno de los elementos y condición para mostrar la interactividad de dicha sección.
+
+Como ejemplo un fragmento de esté evento de javascript.
+
+```JavaScript
+document.addEventListener("scroll", () => {
+  if (calcDistanceTop <= calcScreenHeight) {
+      moveScrollIndex.classList.add('move-left-to-right');
+    }
+}
+```
 
 ## Recomendaciones 
 
