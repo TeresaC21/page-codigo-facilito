@@ -10,7 +10,7 @@ Colaboración y reto junto a [Código Fácilito](https://codigofacilito.com/) Pr
 - [Inicialización de proyecto](#iniciación-de-proyecto)
 - [Estructura del proyecto](#estructura-del-proyecto)
 - [Sobre el proyecto](#sobre-el-proyecto)
-- [Integración DOM e interacciones](#interacción-dom-e-interacciones)
+- [Integración DOM e interacciones](#integración-dom-e-interacciones)
 - [Recomendaciones](#recomendaciones)
 
 ## Documentación 
